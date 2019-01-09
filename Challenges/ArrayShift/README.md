@@ -38,7 +38,7 @@ The Big O was a O(n) linear notation.
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![](/../../assets/insertShiftArray1.PNG?raw=true)
+![](/../../assets/insertShiftArray1.JPG?raw=true)
 
 Lab started on January 08, 2019 by Carlos R. Castillo
 Thanks for stopping by and stay classy Seattle.
