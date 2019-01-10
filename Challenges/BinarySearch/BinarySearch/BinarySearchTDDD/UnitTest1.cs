@@ -2,7 +2,7 @@ using System;
 using Xunit;
 using BinarySearch;
 
-namespace BinarySearchTDD
+namespace BinarySearchTDDD
 {
     public class UnitTest1
     {
@@ -77,6 +77,5 @@ namespace BinarySearchTDD
             int[] testArray = new int[12] { 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22 };
             Assert.Equal(-1, Program.BinarySearch(testArray, -2));
         }
-
     }
 }
