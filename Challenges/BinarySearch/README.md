@@ -40,7 +40,7 @@ The Big O is a Big O(log n). "logarithim notation"
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![](../../assets/BinarySearch.JPG?raw=true)
+![](../../assets/BinarySearch.jpg?raw=true)
 
 Lab started on January 09, 2019 by Carlos R. Castillo
 Thanks for stopping by and stay classy Seattle.
