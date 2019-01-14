@@ -34,4 +34,4 @@ The Big O is a Big O(1).
 ![](../assets/LinkedList.PNG?raw=true)
 
 Lab started on January 14, 2019 by Carlos R. Castillo
-Thanks for stopping by and stay classy Seattle.
+Thanks for stopping by and stay classy Seattle..
