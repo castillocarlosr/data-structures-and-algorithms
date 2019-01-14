@@ -31,7 +31,7 @@ The Big O is a Big O(1).
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![](../assets/LinkedList.jpg?raw=true)
+![](../assets/LinkedList.PNG?raw=true)
 
 Lab started on January 14, 2019 by Carlos R. Castillo
 Thanks for stopping by and stay classy Seattle.
