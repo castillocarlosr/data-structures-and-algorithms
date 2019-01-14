@@ -26,12 +26,12 @@ The Big O is a Big O(1).
 - [x] Read all of these instructions carefully. Name things exactly as described, or you will get a ZERO without comment
 - [x] Do all your work in a public repository (matching the example provided by your instructor) called data-structures-and-algorithms, with a well-formatted, detailed top-level README.md
 - [x] Create a branch in your repository called LinkedList
-- [?] Create xUnit Tests (at least three)
+- [x] Create xUnit Tests (at least three)
 - [?] Pass all Tests
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![](../assets/LinkedList.PNG?raw=true)
+![](../../assets/LinkedList.PNG?raw=true)
 
 Lab started on January 14, 2019 by Carlos R. Castillo
 Thanks for stopping by and stay classy Seattle..
