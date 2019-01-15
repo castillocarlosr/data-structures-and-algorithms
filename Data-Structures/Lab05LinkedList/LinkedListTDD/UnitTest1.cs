@@ -7,7 +7,6 @@ namespace LinkedListTDD
 {
     public class UnitTest1
     {
-
         [Theory]
         [InlineData(1)]
         [InlineData(5)]
@@ -31,40 +30,67 @@ namespace LinkedListTDD
             Assert.True(true);
         }
 
-        [Theory]
-        [InlineData(12)]
-        [InlineData(14)]
-        [InlineData(18)]
-        public void Append(int value)
+        [Fact]
+        public void AppendOne()
         {
             LList testList = new LList();
-            testList.Insert(15);
-            testList.Insert(20);
-            testList.Append(value);
-            //Assert.Equal(20 15 12 18, value);
+            testList.Insert(25);
+            testList.Insert(19);
+            testList.Append(77);
+            bool testBool = testList.Includes(77);
+            Assert.True(true);
+        }
+        [Fact]
+        public void AppendTwo()
+        {
+            LList testList = new LList();
+            testList.Insert(34);
+            testList.Insert(35);
+            testList.Append(88);
+            bool testBool = testList.Includes(88);
+            Assert.True(true);
+        }
+        [Fact]
+        public void AppendThree()
+        {
+            LList testList = new LList();
+            testList.Insert(65);
+            testList.Insert(62);
+            testList.Append(4);
+            bool testBool = testList.Includes(4);
+            Assert.True(true);
         }
 
         [Theory]
-        [InlineData(21, 22)]
-        [InlineData(44, 88)]
-        [InlineData(66, 89)]
+        [InlineData(44, 75)]
+        [InlineData(33, 76)]
+        [InlineData(22, 77)]
         public void InsertBefore(int value, int newValue)
         {
             LList testList = new LList();
-            testList.Insert(15);
-            testList.Insert(20);
+            testList.Insert(55);
+            testList.Insert(44);
+            testList.Insert(33);
+            testList.Insert(22);
+            testList.Insert(11);
+            testList.InsertBefore(value, newValue);
+            Assert.True(testList.Includes(newValue));
         }
 
         [Theory]
-        [InlineData(21, 22)]
-        [InlineData(44, 88)]
-        [InlineData(66, 89)]
+        [InlineData(44, 75)]
+        [InlineData(33, 76)]
+        [InlineData(22, 77)]
         public void InsertAfter(int value, int newValue)
         {
             LList testList = new LList();
-            testList.Insert(15);
-            testList.Insert(20);
+            testList.Insert(55);
+            testList.Insert(44);
+            testList.Insert(33);
+            testList.Insert(22);
+            testList.Insert(11);
+            testList.InsertAfter(value, newValue);
+            Assert.True(testList.Includes(newValue));
         }
-        
     }
 }
