@@ -41,5 +41,5 @@ The Big O is a Big O(n).
 ![](../../assets/KthValue.jpg?raw=true)
 ![](../../assets/KthValue.PNG?raw=true)
 
-Lab started on January 09, 2019 by Carlos R. Castillo
+Lab started on January 16, 2019 by Carlos R. Castillo
 Thanks for stopping by and stay classy Seattle.
