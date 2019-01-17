@@ -38,7 +38,7 @@ The Big O is a Big O(n).
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![](../../assets/MergeScreen.jpg?raw=true)
+![](../../assets/MergeBoard.jpg?raw=true)
 ![](../../assets/MergeScreen.PNG?raw=true)
 
 Lab started on January 17, 2019 by Carlos R. Castillo
