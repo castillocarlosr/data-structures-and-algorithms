@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using StacksAndQueue.Classes;
 
 namespace StacksAndQueue.Classes
 {
@@ -28,41 +25,78 @@ namespace StacksAndQueue.Classes
             Front = node;
         }
 
+        /// <summary>
+        /// This add a new node to the rear of the queue
+        /// </summary>
+        /// <param name="node"></param>
+        /// <returns>node for testing only</returns>
         public Node Enqueque(Node node)
         {
-            if(node == null)
+            try
             {
-                Console.WriteLine("Sorry.  There is no queue right now.");
-                return null;
+                if (node == null)
+                {
+                    Console.WriteLine("Sorry.  There is no queue right now.");
+                    return null;
+                }
+                else
+                {
+                    Rear.Next = node;
+                    Rear = node;
+                    return node;
+                }
             }
-            else
+            catch (Exception error)
             {
-                Rear.Next = node;
-                Rear = node;
-                return node;
+                Console.WriteLine($"Oh no.  This happened in Enqueque Method.  Message:{error.Message}");
             }
+            return node;
         }
 
+        /// <summary>
+        /// This removes the front node in the queue and sets the previous node as the new head.
+        /// </summary>
+        /// <returns>Front for testint only</returns>
         public Node Dequeque()
         {
-            Node temp = Front;
-            Front = Front.Next;
-            temp.Next = null;
-            return temp;
+            try
+            {
+                Node temp = Front;
+                Front = Front.Next;
+                temp.Next = null;
+                return temp;
+            }
+            catch (Exception error)
+            {
+                Console.WriteLine($"Oh no.  This happened in Dequeque Method.  Message:{error.Message}");
+            }
+            return Front;
         }
 
+        /// <summary>
+        /// Return the fron node only.  Nothing changed to the queue
+        /// </summary>
+        /// <returns></returns>
         public Node Peek()
         {
-            if (Front == null)
+            try
             {
-                Console.WriteLine("Empty queue.  Returning NULL!");
-                return null;
+                if (Front == null)
+                {
+                    Console.WriteLine("Empty queue.  Returning NULL!");
+                    return null;
+                }
+                else
+                {
+                    Console.WriteLine(Front.Value);
+                    return Front;
+                }
             }
-            else
+            catch (Exception error)
             {
-                Console.WriteLine(Front.Value);
-                return Front;
+                Console.WriteLine($"Oh no.  This happened in Queue Peek Method.  Message:{error.Message}");
             }
+            return Front;
         }
     }
 }

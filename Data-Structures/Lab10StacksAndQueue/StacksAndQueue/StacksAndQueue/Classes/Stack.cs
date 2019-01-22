@@ -27,8 +27,16 @@ namespace StacksAndQueue.Classes
         /// <param name="node"></param>
         public Node Push(Node node)
         {
-            node.Next = Top;
-            Top = node;
+            try
+            {
+                node.Next = Top;
+                Top = node;
+                return node;
+            }
+            catch (Exception error)
+            {
+                Console.WriteLine($"Oh no.  This happened in Push Method.  Message:{error.Message}");
+            }
             return node;
         }
 
@@ -38,10 +46,18 @@ namespace StacksAndQueue.Classes
         /// <returns></returns>
         public Node Pop()
         {
-            Node temp = Top;
-            Top = Top.Next;
-            temp.Next = null;
-            return temp;
+            try
+            {
+                Node temp = Top;
+                Top = Top.Next;
+                temp.Next = null;
+                return temp;
+            }
+            catch (Exception error)
+            {
+                Console.WriteLine($"Oh no.  This happened in Pop Method.  Message:{error.Message}");
+            }
+            return Top;
         }
 
         /// <summary>
@@ -50,16 +66,24 @@ namespace StacksAndQueue.Classes
         /// <returns></returns>
         public Node Peek()
         {
-            if(Top == null)
+            try
             {
-                Console.WriteLine("Empty stack.  Returning NULL!");
-                return null;
+                if (Top == null)
+                {
+                    Console.WriteLine("Empty stack.  Returning NULL!");
+                    return null;
+                }
+                else
+                {
+                    Console.WriteLine(Top.Value);
+                    return Top;
+                }
             }
-            else
+            catch (Exception error)
             {
-                Console.WriteLine(Top.Value);
-                return Top;
+                Console.WriteLine($"Oh no.  This happened in Stack Peek Method.  Message:{error.Message}");
             }
+            return Top;
         }
     }
 }

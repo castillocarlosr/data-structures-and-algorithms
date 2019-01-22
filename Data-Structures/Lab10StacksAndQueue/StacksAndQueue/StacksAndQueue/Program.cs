@@ -7,6 +7,12 @@ namespace StacksAndQueue
     {
         static void Main(string[] args)
         {
+            
+            StartStack();
+        }
+        
+        public static void StartStack()
+        {
             Console.WriteLine("Hello Stacks and Queue");
             Console.WriteLine("");
 
@@ -65,12 +71,6 @@ namespace StacksAndQueue
             carlosQueue.Peek();
 
             Console.ReadLine();
-            //StartStack();
-        }
-        
-        public void StartStack()
-        {
-
         }
     }
 }
