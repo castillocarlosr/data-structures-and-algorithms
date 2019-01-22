@@ -137,17 +137,17 @@ namespace StacksAndQueueTDD
 
         //******************Queue***************
         /// <summary>
-        /// Test for Enqueue
+        /// Test for Enqueue.  Including if queue is empty.null
         /// </summary>
         [Fact]
-        public void EnqueueOne()
+        public void EnqueueFour()
         {
             Node nodeTestOne = new Node(1);
             Node nodeTestTwo = new Node(2);
-            Queue testQueue = new Queue(nodeTestOne);
+            Queue testQueue = new Queue(null);
             //testQueue.Enqueque(nodeTestOne);
 
-            Assert.Equal(nodeTestTwo, testQueue.Enqueque(nodeTestTwo));
+            Assert.Equal(testQueue.Front,testQueue.Peek());
         }
         [Fact]
         public void EnqueueThree()
@@ -172,6 +172,16 @@ namespace StacksAndQueueTDD
             testQueue.Enqueque(nodeTestTwo);
 
             Assert.Equal(nodeTestThree, testQueue.Enqueque(nodeTestThree));
+        }
+        [Fact]
+        public void EnqueueOne()
+        {
+            Node nodeTestOne = new Node(1);
+            Node nodeTestTwo = new Node(2);
+            Queue testQueue = new Queue(nodeTestOne);
+            //testQueue.Enqueque(nodeTestOne);
+
+            Assert.Equal(nodeTestTwo, testQueue.Enqueque(nodeTestTwo));
         }
 
         /// <summary>
