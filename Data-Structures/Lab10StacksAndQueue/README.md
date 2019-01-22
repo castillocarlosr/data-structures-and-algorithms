@@ -16,7 +16,7 @@ Stacks:
 - Define a method Pop() which removes the node from the Top of the stack and returns that value.  New Top is assigned.
 - Define a method Peek() which returns the Top value.  
 Queue:
-- Be able to create a queue..
+- Be able to create an empty (null) queue without returning an exception.
 - Define a Front & Rear property for the new queue.
 - Define a method Enqueue() which takes any value and adds a new node to the Rear of the queue.
 - Define a method Desqueue() which removes the node from the front of the queue and returns that value.  New Front is assigned.

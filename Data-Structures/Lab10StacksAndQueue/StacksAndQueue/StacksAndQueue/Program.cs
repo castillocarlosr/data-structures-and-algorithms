@@ -47,11 +47,14 @@ namespace StacksAndQueue
 
             Console.WriteLine("\n");
             Console.WriteLine("============Queue=========");
-            Console.WriteLine("Starting with the first node with value 11. ");
-            Queue carlosQueue = new Queue(nodeOne);
-            Console.WriteLine($"Front of Queue:  {carlosQueue.Peek().Value}");
-            Console.WriteLine("Then Enqueue() nodes with value 22, 33, 44, 55, 66");
+            //Console.WriteLine("Starting with a new Queue that is empty.");
+            Queue carlosQueue = new Queue(null);
+            Console.WriteLine($"Front of Queue:  {carlosQueue.Peek()} Starting with a new Queue that is empty.");
 
+            Console.WriteLine("===========Enqueue==============");
+            carlosQueue.Enqueque(nodeOne);
+            Console.WriteLine($"1st node of Queue:  {carlosQueue.Peek().Value}");
+            Console.WriteLine("Then Enqueue() nodes with value 22, 33, 44, 55, 66");
             carlosQueue.Enqueque(nodeTwo);
             carlosQueue.Enqueque(nodeThree);
             carlosQueue.Enqueque(nodeFour);
@@ -59,10 +62,10 @@ namespace StacksAndQueue
             carlosQueue.Enqueque(nodeSix);
 
             Console.WriteLine("");
-            Console.WriteLine("==== Esqueue Peek() ====");
+            Console.WriteLine("====== Queue Peek() ====");
             carlosQueue.Peek();
 
-            Console.WriteLine("==== Desqueque() ====");
+            Console.WriteLine("====== Desqueque() ====");
             Console.WriteLine("First Desqueque.  New Front:");
             carlosQueue.Dequeque();
             carlosQueue.Peek();

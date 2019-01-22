@@ -33,14 +33,17 @@ namespace StacksAndQueue.Classes
         public Node Enqueque(Node node)
         {
             try
-            {
-                if (node == null)
+            {   
+                if (Front == null)
                 {
-                    Console.WriteLine("Sorry.  There is no queue right now.");
-                    return null;
+                    Rear = node;
+                    Front = node;
+                    //Console.WriteLine("Sorry.  There is no queue right now.");
+                    //return null;
                 }
                 else
                 {
+                
                     Rear.Next = node;
                     Rear = node;
                     return node;
@@ -81,10 +84,10 @@ namespace StacksAndQueue.Classes
         {
             try
             {
-                if (Front == null)
+                if ((Front == null) && (Rear == null))
                 {
                     Console.WriteLine("Empty queue.  Returning NULL!");
-                    return null;
+                    return Front;
                 }
                 else
                 {
