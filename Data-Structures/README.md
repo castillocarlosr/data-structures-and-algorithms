@@ -6,9 +6,9 @@ Contained here is an accumulation of different Data Structure and Algorithm impl
 
 1.[Linked List]()
 
+2.[Stacks & Queues]()
 
 <!--
-1.[Stacks & Queues]()
 
 1.[Trees]()
 
