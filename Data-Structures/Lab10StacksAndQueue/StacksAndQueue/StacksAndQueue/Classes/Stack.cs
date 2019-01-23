@@ -21,6 +21,11 @@ namespace StacksAndQueue.Classes
             Top = node;
         }
 
+        public Stack()
+        {
+
+        }
+
         /// <summary>
         /// Will add a new node to the top of the stack
         /// </summary>
