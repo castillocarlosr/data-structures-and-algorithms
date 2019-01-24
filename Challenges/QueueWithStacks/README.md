@@ -44,7 +44,7 @@ The Big O of space: O(1)
 ## Solution
 <!-- Embedded whiteboard image -->
 ![](../../assets/QueueWithStacks.jpg?raw=true)
-![](../../assets/QueueWithStacks?raw=true)
+![](../../assets/QueueWithStacks.PNG?raw=true)
 The screenshot shows a console writeline from the previous reference that would return a "Null returned" in the console but actually returns a value.
 
 Lab started on January 22, 2019 by Carlos R. Castillo

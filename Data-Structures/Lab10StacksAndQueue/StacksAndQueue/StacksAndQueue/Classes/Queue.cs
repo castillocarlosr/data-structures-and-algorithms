@@ -25,6 +25,10 @@ namespace StacksAndQueue.Classes
             Front = node;
         }
 
+        public Queue()
+        {
+        }
+
         /// <summary>
         /// This add a new node to the rear of the queue
         /// </summary>
@@ -86,7 +90,7 @@ namespace StacksAndQueue.Classes
             {
                 if ((Front == null) && (Rear == null))
                 {
-                    Console.WriteLine("Empty queue.  Returning NULL!");
+                    //Console.WriteLine("Empty queue.  Returning NULL!");
                     return Front;
                 }
                 else
