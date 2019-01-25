@@ -55,7 +55,7 @@ The Big O of space: O(1)
 - [x] On your branch, create a method named bool MultiBracketValidation(string input) outside of Main() in your Program.cs file. 
 - [x] Call Your newly created method in Main() once complete.
 - [x] Create xUnit Tests (at least three per method).  Only one method.
-- [?] Pass all Tests
+- [x] Pass all Tests
 
 ## Solution
 <!-- Embedded whiteboard image -->
