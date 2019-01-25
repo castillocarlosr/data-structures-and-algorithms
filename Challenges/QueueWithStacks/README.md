@@ -39,7 +39,7 @@ The Big O of space: O(1)
 - [x] Create a branch in your repository called InsertShiftTab
 - [x] On your branch, create a method named ll_kth_from_end() outside of Main() in your Program.cs file. Call Your newly created method in Main() once complete.
 - [x] Create xUnit Tests (at least three)
-- [?] Pass all Tests
+- [x] Pass all Tests
 
 ## Solution
 <!-- Embedded whiteboard image -->
