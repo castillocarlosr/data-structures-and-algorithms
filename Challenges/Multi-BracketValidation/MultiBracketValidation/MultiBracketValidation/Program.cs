@@ -25,6 +25,11 @@ namespace MultiBracketValidate
             Console.ReadLine();
         }
 
+        /// <summary>
+        /// Takes in a string and checks for "brackets" making sure there are matching opening and closing.
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns>boolean</returns>
         public static bool MultiBracketValidation(string input)
         {
             Stack<char> stack = new Stack<char>();
@@ -33,7 +38,7 @@ namespace MultiBracketValidate
             char[] eventCharacters = { '[', '{', '(', ']', '}', ')' };
             var bracket = (open: '[', close: ']');
             var curled = (open: '{', close: '}');
-            var parens = (open: '(', close: ')');
+            var parenthesis = (open: '(', close: ')');
 
             for (int i = 0; i < inputChar.Length; i++)
             {
@@ -51,10 +56,10 @@ namespace MultiBracketValidate
                     if (x == curled.open)
                         stack.Pop();
                 }
-                else if (inputChar[i] == parens.close)
+                else if (inputChar[i] == parenthesis.close)
                 {
                     char x = stack.Peek();
-                    if (x == parens.open)
+                    if (x == parenthesis.open)
                         stack.Pop();
                 }
                 else
@@ -66,6 +71,7 @@ namespace MultiBracketValidate
             }
             catch (Exception)
             {
+                //works
                 return true;
             }
             return false;
