@@ -4,9 +4,11 @@ Contained here is an accumulation of different Data Structure and Algorithm impl
 
 ## Table of Contents
 
-1.[Linked List]()
+1.[Linked List](LinkedList)
 
-2.[Stacks & Queues]()
+2.[Stacks & Queues](StacksAndQueue)
+
+3.[Trees](Lab15Trees)
 
 <!--
 
