@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzTree", "FizzBuzzTree\FizzBuzzTree.csproj", "{D124ECA8-2E57-4B75-B859-11D787DC78F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzTreeTDD", "FizzBuzzTreeTDD\FizzBuzzTreeTDD.csproj", "{3AFDF6E3-4CC1-485F-9B77-06F73D61D96E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D124ECA8-2E57-4B75-B859-11D787DC78F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D124ECA8-2E57-4B75-B859-11D787DC78F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D124ECA8-2E57-4B75-B859-11D787DC78F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D124ECA8-2E57-4B75-B859-11D787DC78F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AFDF6E3-4CC1-485F-9B77-06F73D61D96E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AFDF6E3-4CC1-485F-9B77-06F73D61D96E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AFDF6E3-4CC1-485F-9B77-06F73D61D96E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AFDF6E3-4CC1-485F-9B77-06F73D61D96E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {085D08A5-4176-49DF-9D08-0C21E870837C}
+	EndGlobalSection
+EndGlobal
