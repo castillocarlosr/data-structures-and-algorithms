@@ -28,5 +28,9 @@ Thanks for stopping by and stay classy Seattle.
 
 8. [Challenge: Multi-bracket Validation](Challenges/Multi-BracketValidation)
 
+9. [Challenge: Fizz Buzz Tree](Challenges/FizzBuzzTree)
+
+10. [Challenge: Breadth-first Traversal](Challenges/BreadthFirstTraversal)
+
 
 
