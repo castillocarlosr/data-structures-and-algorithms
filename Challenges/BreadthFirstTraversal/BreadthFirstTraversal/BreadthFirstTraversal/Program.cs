@@ -47,22 +47,32 @@ namespace BreadthFirstTraversal
             Queue<Trees.Classes.Node> breadthQueue = new Queue<Trees.Classes.Node>();
             breadthQueue.Enqueue(Root);
 
-            while (breadthQueue.Peek() != null)
+            try
             {
-                //BinaryTree front = new BinaryTree();
-                Trees.Classes.Node front = breadthQueue.Dequeue();
-                Console.WriteLine($"{front.Value}");
-                testList.Add(front.Value);
-                if (front.LeftChild != null)
+                while (breadthQueue.Peek() != null)
                 {
-                    breadthQueue.Enqueue(front.LeftChild);
+                    //BinaryTree front = new BinaryTree();
+                    Trees.Classes.Node front = breadthQueue.Dequeue();
+                    Console.WriteLine($"{front.Value}");
+                    testList.Add(front.Value);
+                    if (front.LeftChild != null)
+                    {
+                        breadthQueue.Enqueue(front.LeftChild);
+                    }
+                    if (front.RightChild != null)
+                    {
+                        breadthQueue.Enqueue(front.RightChild);
+                    }
                 }
-                if (front.RightChild != null)
-                {
-                    breadthQueue.Enqueue(front.RightChild);
-                }
+                return testList;
+            }
+            catch (Exception error)
+            {
+
+                Console.WriteLine($"Now the Queue is empty: {error.Message}");
             }
             return testList;
+
         }     
     }
 }
