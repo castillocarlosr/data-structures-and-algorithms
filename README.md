@@ -32,5 +32,7 @@ Thanks for stopping by and stay classy Seattle.
 
 10. [Challenge: Breadth-first Traversal](Challenges/BreadthFirstTraversal)
 
+11. [Challenge: Find Max Value in Binary Tree](Challenges/FindMaxValueBinaryTree)
+
 
 
