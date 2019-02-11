@@ -34,5 +34,7 @@ Thanks for stopping by and stay classy Seattle.
 
 11. [Challenge: Find Max Value in Binary Tree](Challenges/FindMaxValueBinaryTree)
 
+12. [Challenge: Compare Two directory trees for leafs](Challenges/LeafsOfTree)
+
 
 
