@@ -32,6 +32,7 @@ I created a Compare-Two-Trees-Class and method Leafs-In-Two-Trees that would tak
 The Big O of time: O(n)
 The Big O of space: O(n) 
 ```
+Both are O(n) beacuse the structure of the tree is unknown and has to traverse through every node to determine if that node is a leaf or has more children.
 
 ### Checklist
 
