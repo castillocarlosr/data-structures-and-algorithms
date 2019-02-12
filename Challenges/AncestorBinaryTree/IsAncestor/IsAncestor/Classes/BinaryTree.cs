@@ -8,24 +8,45 @@ namespace IsAncestor.Classes
     {
         public Node Root { get; set; }
 
+        public int TraverseThroughTreeLeft(Node node)
+        {
+            int nextValue = TraverseThroughTreeLeft(node.LeftChild);
+            return nextValue;
+        }
+        public int TraverseThroughTreeRight(Node node)
+        {
+            int nextValue = TraverseThroughTreeRight(node.RightChild);
+            return nextValue;
+        }
+
         
 
-        public bool IsAncestor(Node a, Node b, Node root)
+        public bool IsAncestor(int a, int b, Node node)
         {
-            if(root == null)
+            if(node == null)
             {
                 return false;
             }
-            else
+            /*
+            if(node.Value == a || node.Value == b)
             {
-                while(root.LeftChild != null)
-                {
-                    if(root.LeftChild == a)
-                    {
+                 left = IsAncestor(a, b, node.LeftChild);
 
-                    }
-                }
             }
+            */
+            if(node.Value == a)
+            {
+                return true;
+            }
+            if (IsAncestor(a, b, node.LeftChild) || IsAncestor(a, b, node.RightChild))
+            {
+                //if (node.Value == b)
+                //{
+                    return true;
+                //}
+            }
+            
+            return false;
         }
     }
 }
