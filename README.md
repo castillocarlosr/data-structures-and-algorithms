@@ -36,5 +36,9 @@ Thanks for stopping by and stay classy Seattle.
 
 12. [Challenge: Compare Two directory trees for leafs](Challenges/LeafsOfTree)
 
+13. [Challenge: Find Height of Binary Tree](Challenges/HeightOfBinaryTree)
+
+14. [Challenge: Is Binary Tree Balanced](Challenges/BinaryTreeBalanced)
+
 
 
