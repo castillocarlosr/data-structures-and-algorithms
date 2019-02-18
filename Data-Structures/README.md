@@ -8,7 +8,9 @@ Contained here is an accumulation of different Data Structure and Algorithm impl
 
 2.[Stacks & Queues](StacksAndQueue)
 
-3.[Trees](Lab15Trees)
+3.[Trees](Trees)
+
+4.[Hash Table](HashTable)
 
 <!--
 
