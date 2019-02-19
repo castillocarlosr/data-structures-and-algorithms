@@ -14,12 +14,12 @@ namespace RepeatedWord
             Console.WriteLine("Repeated first upon once repeated time two two ok more repeat two two two two.");
             string input = "Repeated first upon once repeated time two two ok more repeat two two two two.";
 
-            Console.WriteLine($"First repeated word:  {firstRepeatedWord(input)}");
+            Console.WriteLine($"First repeated word:  {RepeatedWord(input)}");
 
             Console.ReadLine();
         }
         
-        public static string firstRepeatedWord(string input)
+        public static string RepeatedWord(string input)
         {
             string[] listOfWord = input.ToLower().Split(',',' ','.');
             Hashtables hashWords = new Hashtables();

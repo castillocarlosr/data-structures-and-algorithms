@@ -40,5 +40,7 @@ Thanks for stopping by and stay classy Seattle.
 
 14. [Challenge: Is Binary Tree Balanced](Challenges/BinaryTreeBalanced)
 
+15. [Challenge: First Repeated Word](Challenges/RepeatedWord)
+
 
 
