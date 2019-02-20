@@ -42,5 +42,6 @@ Thanks for stopping by and stay classy Seattle.
 
 15. [Challenge: First Repeated Word](Challenges/RepeatedWord)
 
+16. [Challenge: Tree Intersection](Challenges/TreeIntersection)
 
 
