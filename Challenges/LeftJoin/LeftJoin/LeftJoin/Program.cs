@@ -12,20 +12,20 @@ namespace LeftJoin
             Console.WriteLine("");
 
             Hashtables tableOne = new Hashtables();
-            tableOne.Add("fond", "enamored");
-            tableOne.Add("wrath", "anger");
-            tableOne.Add("diligent", "employed");
+            tableOne.Add("abc", "enamored");
+            tableOne.Add("abcd", "anger");
+            tableOne.Add("qwerty", "employed");
             tableOne.Add("outfit", "garb");
             tableOne.Add("guide", "usher");
-            tableOne.Add("last", "end");
+            tableOne.Add("extremetomax", "end");
 
             Hashtables tableTwo = new Hashtables();
-            tableTwo.Add("fond", "averse");
-            tableTwo.Add("wrath", "delight");
-            tableTwo.Add("diligent", "idle");
+            tableTwo.Add("abc", "averse");
+            tableTwo.Add("abcd", "delight");
+            tableTwo.Add("qwerty", "idle");
             tableTwo.Add("empty", "gone");
             tableTwo.Add("nope", "never");
-            tableTwo.Add("last", "jam");
+            tableTwo.Add("extremetomax", "jam");
             
             List<string> result = LeftJoin(tableOne, tableTwo);
             Console.WriteLine($"[{string.Join(",", result)}]");
@@ -35,34 +35,44 @@ namespace LeftJoin
 
         public static List<string> LeftJoin(Hashtables tableOne, Hashtables tableTwo)
         {
+            List<string> listTableOne = new List<string>();
+            List<string> listTableTwo = new List<string>();
             List<string> output = new List<string>();
-
-            var keys = tableOne.Bucket.ToString();
-
-            //foreach (KeyValuePair<string, object> kv in tableOne.ToString())
-            //{
-                //output.Add(tableOne.GetValue(kv));
-            //}
-
-            //Yeah.  I'm stuck and google is of no help.
-            //Not sure how to read the keys without already knowing the keys.
             
-            while (tableOne.Bucket != null)
+            for (int i = 0; i < tableOne.Bucket.Length; i++)
             {
-                for (int i = 0; i < tableOne.Bucket.Length; i++)
-                {
-                    while(tableOne.Bucket[i] != null)
-                    {
-                        output.Add(tableOne.Bucket[i].Head.Value.ToString());
-                    }              
-                }
-                if(tableOne.Bucket == tableTwo.Bucket)
-                {
-                    output.Add(tableOne.Bucket.ToString());
-                    //output.Add(tableTwo.GetValue(tableOne.Bucket.ToString());
+                if (tableOne.Bucket[i] != null)
+                {                                    
+                    listTableOne.Add(tableOne.Bucket[i].Head.Key.ToString());
+                    listTableOne.Add(tableOne.Bucket[i].Head.Value.ToString());
                 }
             }
-            
+
+            for (int i = 0; i < tableTwo.Bucket.Length; i++)
+            {
+                if (tableTwo.Bucket[i] != null)
+                {
+                    listTableTwo.Add(tableTwo.Bucket[i].Head.Key.ToString());
+                    listTableTwo.Add(tableTwo.Bucket[i].Head.Value.ToString());
+                }
+            }
+
+            string[] tableOneArr = listTableOne.ToArray();
+            string[] tableTwoArr = listTableOne.ToArray();
+
+            for (int i = 0; i < tableOneArr.Length; i++)
+            {
+                for (int m = 0; m < tableTwoArr.Length; m++)
+                {
+                    if(tableOneArr[i] == tableTwoArr[m])
+                    {
+                        output.Add(tableOneArr[i]);
+                        output.Add(tableOneArr[i + 1]);
+                        output.Add(tableTwoArr[m + 1]);
+                    }
+                }
+            }
+
             return output;
         }
     }
