@@ -24,7 +24,7 @@ namespace Graph.Classes
             }
         }
 
-        public void AddEdge(Vertex from, Vertex to, int weight)
+        public void AddEdge(object from, object to, int weight)
         {
             //Edges.Add(new Edge(from, to, weight));
             Vertex fromPointer = Vertices.Find(f => f.Value == (object)from);

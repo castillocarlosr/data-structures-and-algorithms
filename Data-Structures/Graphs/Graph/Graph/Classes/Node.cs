@@ -11,10 +11,9 @@ namespace Graph.Classes
         /// </summary>
         public object Value { get; set; }
 
-        /// <summary>
-        /// Node references the next node
-        /// </summary>
         public Node Next { get; set; }
+
+        public Node Previous { get; set; }
 
         /// <summary>
         /// for instantiating Node
