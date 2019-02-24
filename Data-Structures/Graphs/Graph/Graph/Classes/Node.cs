@@ -6,17 +6,22 @@ namespace Graph.Classes
 {
     public class Node
     {
-        public object Key { get; set; }
-
+        /// <summary>
+        /// Node set to the value given to
+        /// </summary>
         public object Value { get; set; }
 
+        /// <summary>
+        /// Node references the next node
+        /// </summary>
         public Node Next { get; set; }
 
-        public Node Previous { get; set; }
-
-        public Node(object key, object value)
+        /// <summary>
+        /// for instantiating Node
+        /// </summary>
+        /// <param name="value">int user input</param>
+        public Node(object value)
         {
-            Key = key;
             Value = value;
         }
     }
