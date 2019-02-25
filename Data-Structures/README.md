@@ -14,13 +14,9 @@ Contained here is an accumulation of different Data Structure and Algorithm impl
 
 5.[Insertion Sort](Sorts)
 
+6.[Graphs](Graphs)
+
 <!--
-
-1.[Trees]()
-
-1.[Graphs]()
-
-1.[Hash Tables]()
 
 1.[Selection Sort]()
 
