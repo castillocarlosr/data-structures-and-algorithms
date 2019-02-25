@@ -6,6 +6,10 @@ namespace Graph.Classes
 {
     public class Graph
     {
+
+        /// <summary>
+        /// Building an Adjacency list.
+        /// </summary>
         public List<Vertex> Vertices { get; set; }
 
         public List<Edge> Edges { get; set; }
