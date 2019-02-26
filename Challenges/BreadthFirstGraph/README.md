@@ -6,7 +6,7 @@
 Carlos Roberto Castillo
 ```
 
-# Find the height of a binary tree.
+# Use Breadth-First on an Adjacency List representaion of a graph.
 <!-- Short summary or background information -->
 Given a graph object, use breadth-first traversal to return all nodes.
 
