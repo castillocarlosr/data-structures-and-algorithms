@@ -46,3 +46,5 @@ Thanks for stopping by and stay classy Seattle.
 
 17. [Challenge: Breadth First on Graph](Challenges/BreadthFirstGraph)
 
+18. [Challenge: Get Edge of Graph](Challenges/GetEdge)
+
