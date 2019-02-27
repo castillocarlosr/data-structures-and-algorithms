@@ -6,6 +6,9 @@ namespace GetEdge.Classes
 {
     public class Graph
     {
+        /// <summary>
+        /// Building an Adjacency list.
+        /// </summary>
         public List<Vertex> Vertices { get; set; }
 
         public List<Edge> Edges { get; set; }
@@ -29,13 +32,13 @@ namespace GetEdge.Classes
         public void AddEdge(object from, object to, int weight)
         {
             //Edges.Add(new Edge(from, to, weight));
-            Vertex fromPointer = Vertices.Find(f => f.Value == (object)from);
+            Vertex fromPointer = Vertices.Find(f => f.Value == from);
             if (fromPointer == null)
             {
                 fromPointer = new Vertex(from);
                 Vertices.Add(fromPointer);
             }
-            Vertex toPointer = Vertices.Find(t => t.Value == (object)to);
+            Vertex toPointer = Vertices.Find(t => t.Value == to);
             if (toPointer == null)
             {
                 toPointer = new Vertex(to);
@@ -56,8 +59,8 @@ namespace GetEdge.Classes
             return Vertices;
         }
 
-        /*
-        public Dictionary<object, int> GetNeighbors(object value)
+        
+        public Dictionary<string, int> GetNeighbors(object value)
         {
             Vertex vertex = Vertices.Find(v => v.Value == value);
 
@@ -66,15 +69,15 @@ namespace GetEdge.Classes
                 return null;
             }
 
-            Dictionary<object, int> neighbors = new Dictionary<object, int>();
+            Dictionary<string, int> neighbors = new Dictionary<string, int>();
             foreach (var item in vertex.AdjecentVertex)
             {
                 var key = item.Key;
-                neighbors.Add((object)item.Value, vertex.AdjecentVertex[key]);
+                neighbors.Add(item.Value.ToString(), vertex.AdjecentVertex[key]);
             }
             return neighbors;
         }
-        */
+        /*
         /// <summary>
         /// Trying new method to get neighbors.
         /// </summary>
@@ -86,7 +89,7 @@ namespace GetEdge.Classes
 
             return Vertices[index].Children;
         }
-
+        */
         public int Size()
         {
             return Vertices.Count;

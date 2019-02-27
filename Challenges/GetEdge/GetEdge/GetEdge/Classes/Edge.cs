@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GetEdge.Classes
+namespace GetEdge
 {
     public class Edge
     {
@@ -11,12 +11,12 @@ namespace GetEdge.Classes
         public object From { get; set; }
 
         public int Weight { get; set; }
-
+        /*
         public Edge(Vertex to, Vertex from, int weight)
         {
             To = to;
             From = from;
             Weight = weight;
-        }
+        }*/
     }
 }
