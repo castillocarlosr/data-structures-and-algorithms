@@ -2,13 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GetEdge.Classes
+namespace DepthFirstGraph.Classes
 {
     public class Graph
     {
-        /// <summary>
-        /// Building an Adjacency list.
-        /// </summary>
         public List<Vertex> Vertices { get; set; }
 
         public List<Edge> Edges { get; set; }
@@ -32,13 +29,13 @@ namespace GetEdge.Classes
         public void AddEdge(object from, object to, int weight)
         {
             //Edges.Add(new Edge(from, to, weight));
-            Vertex fromPointer = Vertices.Find(f => f.Value == from);
+            Vertex fromPointer = Vertices.Find(f => f.Value == (object)from);
             if (fromPointer == null)
             {
                 fromPointer = new Vertex(from);
                 Vertices.Add(fromPointer);
             }
-            Vertex toPointer = Vertices.Find(t => t.Value == to);
+            Vertex toPointer = Vertices.Find(t => t.Value == (object)to);
             if (toPointer == null)
             {
                 toPointer = new Vertex(to);
@@ -59,8 +56,8 @@ namespace GetEdge.Classes
             return Vertices;
         }
 
-        
-        public Dictionary<string, int> GetNeighbors(object value)
+        /*
+        public Dictionary<object, int> GetNeighbors(object value)
         {
             Vertex vertex = Vertices.Find(v => v.Value == value);
 
@@ -69,15 +66,15 @@ namespace GetEdge.Classes
                 return null;
             }
 
-            Dictionary<string, int> neighbors = new Dictionary<string, int>();
+            Dictionary<object, int> neighbors = new Dictionary<object, int>();
             foreach (var item in vertex.AdjecentVertex)
             {
                 var key = item.Key;
-                neighbors.Add(item.Value.ToString(), vertex.AdjecentVertex[key]);
+                neighbors.Add((object)item.Value, vertex.AdjecentVertex[key]);
             }
             return neighbors;
         }
-        /*
+        */
         /// <summary>
         /// Trying new method to get neighbors.
         /// </summary>
@@ -89,7 +86,7 @@ namespace GetEdge.Classes
 
             return Vertices[index].Children;
         }
-        */
+
         public int Size()
         {
             return Vertices.Count;
@@ -116,34 +113,6 @@ namespace GetEdge.Classes
                 }
             }
             return order;
-        }
-
-        public Tuple<bool, int> GetEdge(Graph graph, string[] cities)
-        {
-            bool exsist = false;
-            int cost = 0;
-            Tuple<bool, int> output = new Tuple<bool, int>(exsist, cost);
-            Dictionary<string, int> neighbors = new Dictionary<string, int>();
-
-            List<Vertex> vertexList = new List<Vertex>();
-            for (int i = 0; i < cities.Length; i++)
-            {
-                vertexList.Add(new Vertex(i));
-            }
-            for (int j = 0; j < cities.Length - 1; j++)
-            {
-                neighbors = graph.GetNeighbors(vertexList[j]);
-                //if (neighbors.ContainsKey(vertexList[j + 1]))
-                if (neighbors.Keys.ToString() == cities[j])
-                {
-                    cost += neighbors[cities[j + 1]];
-                }
-                else
-                {
-                    return output;
-                }
-            }
-            return output;
         }
     }
 }

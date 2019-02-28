@@ -45,11 +45,11 @@ namespace GetEdge
             string[] cities = new string[]{ "Metroville", "Pandora" };
 
             Console.WriteLine("Below is the trip from Metroville to Pandora");
-            Console.WriteLine(GetEdge(graph, cities));
+            Console.WriteLine(graph.GetEdge(graph, cities));
 
             Console.ReadLine();
         }
-
+        /*
         public static Tuple<bool, int> GetEdge(Graph graph, string[] cities)
         {
             bool exsist = false;
@@ -77,7 +77,7 @@ namespace GetEdge
             }
             return output;
         }
-
+        */
         
     }
 }
