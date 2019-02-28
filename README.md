@@ -48,3 +48,4 @@ Thanks for stopping by and stay classy Seattle.
 
 18. [Challenge: Get Edge of Graph](Challenges/GetEdge)
 
+18. [Challenge: Depth First Pre Order on Graph](Challenges/PreOrderGraph)
