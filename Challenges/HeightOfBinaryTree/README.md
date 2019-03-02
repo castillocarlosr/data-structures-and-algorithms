@@ -43,7 +43,7 @@ The Big O of space: O(h)  => h for the height of the tree.
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![](../../assets/HeightBinaryTree.jpg?raw=true)
+![](../../assets/HeightBinaryTree .jpg?raw=true)
 ![](../../assets/MaxHeightTree.PNG?raw=true)
 
 Lab started on February 11, 2019 by Carlos R. Castillo
