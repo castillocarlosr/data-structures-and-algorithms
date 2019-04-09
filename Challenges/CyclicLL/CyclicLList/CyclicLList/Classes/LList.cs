@@ -189,7 +189,7 @@ namespace CyclicLList.Classes
             }
         }
 
-        public bool IsCircular()
+        public bool IsCircular(Node node)
         {
             if (Head != null && Head.Next != null)
             {
