@@ -1,14 +1,15 @@
 # data-structures-and-algorithms
-Created Code Jan. 09, 2019
 
 # Data Structures and Algorithms
-Code401 C# .NET
+C# ASP.NET Core
 
-This is a continuing repo for all white-board code challenges.
+* This is a continuing repo for all white-board code challenges.
 
-Challenges started on January 08, 2019 by Carlos R. Castillo
+* Challenges using C# started on January 08, 2019 by Carlos R. Castillo
+
+```
 Thanks for stopping by and stay classy Seattle.
-
+```
 
 ## Table of Contents
 
@@ -49,3 +50,5 @@ Thanks for stopping by and stay classy Seattle.
 18. [Challenge: Get Edge of Graph](Challenges/GetEdge)
 
 18. [Challenge: Depth First Pre Order on Graph](Challenges/PreOrderGraph)
+
+19. [Challenge: Is Linked List Cyclic](Challenges/CyclicLL)
