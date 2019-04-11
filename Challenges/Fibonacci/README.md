@@ -1,6 +1,6 @@
 # data-structures-and-algorithms
 
-## Determine if a Linked List is cyclic
+## Find the Fibonacci number in sequence
 
 #### Coding while unemployed
 ###### Just a casual Wednesday
