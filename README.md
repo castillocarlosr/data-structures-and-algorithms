@@ -13,7 +13,7 @@ Thanks for stopping by and stay classy Seattle.
 
 ## Table of Contents
 
-1. [Challenge: Reverse an array](Challenges/reverseArray) (Pending for a future date.)
+1. [Challenge: Reverse an array](Challenges/ReverseArray)
 
 2. [Challenge: Insert and shift an array](Challenges/ArrayShift)
 
@@ -49,8 +49,8 @@ Thanks for stopping by and stay classy Seattle.
 
 18. [Challenge: Get Edge of Graph](Challenges/GetEdge)
 
-18. [Challenge: Depth First Pre Order on Graph](Challenges/PreOrderGraph)
+19. [Challenge: Depth First Pre Order on Graph](Challenges/PreOrderGraph)
 
-19. [Challenge: Is Linked List Cyclic](Challenges/CyclicLL)
+20. [Challenge: Is Linked List Cyclic](Challenges/CyclicLL)
 
-20. [Challenge: Fibonacci Numbers - Golden Ratio](Challenges/Fibonacci)
+21. [Challenge: Fibonacci Numbers - Golden Ratio](Challenges/Fibonacci)
