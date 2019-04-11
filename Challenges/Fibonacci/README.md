@@ -10,7 +10,7 @@
 * Given an integer, return what the number is in the Fibonacci sequence.
 - Use iterative method.
 - Return that number.
-* 
+
 - Use recursive method.
 - Return that number.
 
