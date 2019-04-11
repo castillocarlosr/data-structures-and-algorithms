@@ -8,7 +8,7 @@ namespace FibonacciFinder
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Golden Ratio");
-            Console.WriteLine("Fibonacci Sequence is 1,1,2,3,5,8,13,21,34,55,89,144, and that as far as I will go!");
+            Console.WriteLine("Fibonacci Sequence is 0, 1,1,2,3,5,8,13,21,34,55,89,144, and that as far as I will go!");
             Console.WriteLine("");
 
             FibonacciClass fibonacciQuestion = new FibonacciClass();
@@ -25,9 +25,10 @@ namespace FibonacciFinder
             Console.WriteLine($"3rd number in Fibonacci Sequence: {fibonacciQuestion.FindSpecificRecursive(3)}");
 
             Console.WriteLine("***************Print Fibonacci sequence*************");
-            Console.WriteLine($"Print numbers 1-12th: {fibonacciQuestion.PrintSequence(12)}");
-            Console.WriteLine($"Print numbers 1st: {fibonacciQuestion.PrintSequence(12)}");
-            Console.WriteLine($"Print numbers 2nd: {fibonacciQuestion.PrintSequence(12)}");
+            Console.WriteLine($"Print numbers 1-12th integer: {String.Join(", ", fibonacciQuestion.PrintSequence(12))}");
+            Console.WriteLine($"Print numbers 1st integer: {String.Join(", ", fibonacciQuestion.PrintSequence(1))}");
+            Console.WriteLine($"Print numbers 2nd integer: {String.Join(", ", fibonacciQuestion.PrintSequence(2))}");
+
 
             Console.ReadLine();
         }
