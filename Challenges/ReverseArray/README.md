@@ -15,7 +15,7 @@
 - Return that string.
 
 
-![](../../assets/ReverseArray?raw=true)
+![](../../assets/ReverseArray.png?raw=true)
 ![](../../assets/ReverseArray.jpg?raw=true)
 
 ```
