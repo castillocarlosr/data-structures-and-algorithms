@@ -1,18 +1,41 @@
-# data-structures-and-algorithms
-
 # Data Structures and Algorithms
+# Code Challenges
 C# ASP.NET Core
 
 * This is a continuing repo for all white-board code challenges.
 
-* Challenges using C# started on January 08, 2019 by Carlos R. Castillo
+* Challenges using C# in Visual Studio 2017 & 2019 by Carlos R. Castillo
 
 ```
 Thanks for stopping by and stay classy Seattle.
 ```
 
 ## Table of Contents
+## *********** Data-Structures **************************
+1. [Linked List](LinkedList)
 
+2. [Stacks & Queues](StacksAndQueue)
+
+3. [Trees](Trees)
+
+4. [Hash Table](HashTable)
+
+5. [Insertion Sort](Sorts)
+
+6. [Graphs](Graphs)
+
+<!--
+
+1.[Selection Sort]()
+
+1.[Quick Sort]()
+
+1.[Merge Sort]()
+
+1.[Radix Sort]()
+-->
+
+## *********** Challenges **************************
 1. [Challenge: Reverse an array](Challenges/ReverseArray)
 
 2. [Challenge: Insert and shift an array](Challenges/ArrayShift)
