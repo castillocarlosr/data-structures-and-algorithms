@@ -24,7 +24,7 @@ Thanks for stopping by and stay classy Seattle.
 
 6. [Graphs](Data-Structures/Graphs)
 
-7. [Bubble Sort](Data-Structure/BubbleSort)
+7. [Bubble Sort](Data-Structures/BubbleSort)
 
 <!--
 
