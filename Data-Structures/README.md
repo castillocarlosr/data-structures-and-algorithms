@@ -4,17 +4,19 @@ Contained here is an accumulation of different Data Structure and Algorithm impl
 
 ## Table of Contents
 
-1.[Linked List](LinkedList)
+1. [Linked List](LinkedList)
 
-2.[Stacks & Queues](StacksAndQueue)
+2. [Stacks & Queues](StacksAndQueue)
 
-3.[Trees](Trees)
+3. [Trees](Trees)
 
-4.[Hash Table](HashTable)
+4. [Hash Table](HashTable)
 
-5.[Insertion Sort](Sorts)
+5. [Insertion Sort](Sorts)
 
-6.[Graphs](Graphs)
+6. [Graphs](Graphs)
+
+7. [Bubble Sort](BubbleSort)
 
 <!--
 
