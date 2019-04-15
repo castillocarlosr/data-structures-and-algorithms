@@ -12,17 +12,17 @@ Thanks for stopping by and stay classy Seattle.
 
 ## Table of Contents
 ## *********** Data-Structures **************************
-1. [Linked List](LinkedList)
+1. [Linked List](Data-Structures/LinkedList)
 
-2. [Stacks & Queues](StacksAndQueue)
+2. [Stacks & Queues](Data-Structures/StacksAndQueue)
 
-3. [Trees](Trees)
+3. [Trees](Data-Structures/Trees)
 
-4. [Hash Table](HashTable)
+4. [Hash Table](Data-Structures/HashTable)
 
-5. [Insertion Sort](Sorts)
+5. [Insertion Sort](Data-Structures/InsertionSort)
 
-6. [Graphs](Graphs)
+6. [Graphs](Data-Structures/Graphs)
 
 <!--
 
