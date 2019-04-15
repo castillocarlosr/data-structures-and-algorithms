@@ -13,8 +13,8 @@ namespace BubbleSort
 
             Bubbles bubbles = new Bubbles();
             int[] myNumbers = new int[12] { 4, 76, 22, 23, 24, 67, 99, 14, 15, 10, 2, 8 };
-            bubbles.numArrSort(myNumbers);
-            Console.WriteLine($"Bubble Sorted:  {bubbles.numArrSort(myNumbers)}");
+            //bubbles.numArrSort(myNumbers);
+            Console.WriteLine($"Bubble Sorted:  {String.Join(", ", bubbles.numArrSort(myNumbers))}");
 
             Console.ReadLine();
         }
