@@ -5,7 +5,7 @@ Code401
 ## Collaborators
 - Carlos Roberto Castillo
 
-# Implement a Hashtable
+# Implement a Insertion Sort
 <!-- Short summary or background information -->
 Implement an Insertion Sort method:
 
