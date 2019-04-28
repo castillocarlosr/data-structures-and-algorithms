@@ -79,3 +79,5 @@ Thanks for stopping by and stay classy Seattle.
 20. [Challenge: Is Linked List Cyclic](Challenges/CyclicLL)
 
 21. [Challenge: Fibonacci Numbers - Golden Ratio](Challenges/Fibonacci)
+
+22. [Challenge: Reverse an Integer and Words](Challenges/ReverseIntString)
