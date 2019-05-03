@@ -11,10 +11,10 @@
 - Return that integer
 - Should handle both positive & negative numbers.
 
-* Given a string, reverse that string.
-- Return that string.
-
-
+* Given a string, reverse that string in various ways.
+- Return that string with only the word order reversed.
+- Return that string with only the letters in each word reversed.
+- Return that string with all the letters in the sentence reversed.
 
 ```
 Carlos Castillo
