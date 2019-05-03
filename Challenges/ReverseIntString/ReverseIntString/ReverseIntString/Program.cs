@@ -16,7 +16,11 @@ namespace ReverseIntString
             Console.WriteLine($"Reverse of that number: {reverseSomeThing.ReverseIntegers(InputNumber)}");
 
             Console.WriteLine();
-            Console.WriteLine($"Input:  how much does a wooden doll weigh! {reverseSomeThing.ReverseWord("how much does a wooden doll weigh!")}");
+            Console.Write("Enter a set of words: ");
+            string InputWords = Console.ReadLine();
+            Console.WriteLine($"Reverse order of those words:  {reverseSomeThing.ReverseWord(InputWords)}");
+            Console.WriteLine($"Reverse letters in each word:  {reverseSomeThing.ReverseLettersInEachWord(InputWords)}");
+            Console.WriteLine($"Reverse all letters in sentence:  {reverseSomeThing.ReverseAllLetters(InputWords)}");
 
             Console.ReadLine();
         }

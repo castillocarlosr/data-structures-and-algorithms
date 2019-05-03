@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Text;
 
 namespace ReverseIntString.Classes
@@ -21,9 +22,6 @@ namespace ReverseIntString.Classes
 
         public string ReverseWord(string input)
         {
-            //char[] charArr = input.ToCharArray();
-            //Array.Reverse(charArr);
-            //return new string(charArr);
             StringBuilder stringRever = new StringBuilder();
             string[] words = input.Split(' ');
             for (int i = words.Length-1; i>-1; i--)
@@ -32,22 +30,32 @@ namespace ReverseIntString.Classes
                 stringRever.Append(" ");
             }
             return stringRever.ToString();
-            /*
-            string[] strArr = input.Split(" ");
-            int i = 0;
-            int j = strArr.Length - 1;
-            while(i < j)
+        }
+
+        public string ReverseLettersInEachWord(string input)
+        {
+            string resultString = string.Join(" ",
+                 input.Split(' ')
+                .Select(x => new String(x.Reverse()
+                .ToArray())));
+            return resultString;
+        }
+
+        public string ReverseAllLetters(string input)
+        {
+            char[] inputArr = input.ToCharArray();
+            int a = 0;
+            int b = inputArr.Length - 1;
+            while(a < b)
             {
-                string temp = strArr[i];
-                strArr[i] = strArr[j];
-                strArr[j] = temp;
-                i++;
-                j--;
+                char temp = inputArr[a];
+                inputArr[a] = inputArr[b];
+                inputArr[b] = temp;
+                a++;
+                b--;
             }
-            //string input2 = strArr.ToString();
-            //return input2;
-            return new string( strArr );
-            */
+            string result = new string(inputArr);
+            return result;
         }
     }
 }
