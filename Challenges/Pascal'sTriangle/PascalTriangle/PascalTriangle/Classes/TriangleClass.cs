@@ -11,7 +11,7 @@ namespace PascalTriangle.Classes
         /// </summary>
         /// <returns>The array slow.</returns>
         /// <param name="k">K.</param>
-        public int[,] TriangleArraySlow(int k)
+        public int[,] TriangleArray(int k)
         {
             int[,] arr = new int[k, k];
             for (int i = 0; i < k; i++)
@@ -24,7 +24,7 @@ namespace PascalTriangle.Classes
                     }
                     else
                     {
-                        arr[i, j] = arr[i - 1, j - 1] + arr[i - 1, i];
+                        arr[i, j] = arr[i - 1, j - 1] + arr[i - 1, j];
                     }
                 }
             }
@@ -44,11 +44,12 @@ namespace PascalTriangle.Classes
                     }
                     else
                     {
-                        arr[i, j] = arr[i - 1, j - 1] + arr[i - 1, i];
-                        Console.Write(arr[i, j]);
+                        arr[i, j] = arr[i - 1, j - 1] + arr[i - 1, j];
                     }
+                    Console.Write(arr[i, j]);
+                    Console.Write(" ");
                 }
-                Console.WriteLine("");
+                Console.WriteLine(" ");
             }
         }
     }

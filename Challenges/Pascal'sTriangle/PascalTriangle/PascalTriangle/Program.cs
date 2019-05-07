@@ -17,9 +17,17 @@ namespace PascalTriangle
             //  1 5 10 10 5 1
             // 1 6 15 20 15 6 1
             TriangleClass triangle = new TriangleClass();
-            //triangle.TriangleArraySlow(3);
-            //Console.WriteLine(triangle.TriangleArraySlow(2));
-            triangle.PrintPascal(5);
+            /*
+            Console.Write("Please enter an index to display that array: ");
+            int inputFromUserArray = int.Parse(Console.ReadLine());
+            foreach(var item in triangle.TriangleArray(inputFromUserArray))
+            {
+                Console.WriteLine(item.ToString());
+            }
+            */
+            Console.Write("Please enter an index number to print the triangle:  ");
+            int inputFromUserTriangle = int.Parse(Console.ReadLine());
+            triangle.PrintPascal(inputFromUserTriangle + 1);
 
             Console.ReadLine();
         }
