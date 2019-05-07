@@ -81,3 +81,5 @@ Thanks for stopping by and stay classy Seattle.
 21. [Challenge: Fibonacci Numbers - Golden Ratio](Challenges/Fibonacci)
 
 22. [Challenge: Reverse an Integer and Words](Challenges/ReverseIntString)
+
+23. [Challenge: Pascal's Triangle](Challenges/Pascal'sTriangle)
