@@ -58,3 +58,5 @@ Thanks for stopping by and stay classy Seattle.
 22. [Challenge: Reverse an Integer and Words](ReverseIntString)
 
 23. [Challenge: Pascal's Triangle](Pascal'sTriangle)
+
+24. [Challenge: Product of Array Except Index](ProductArray)
