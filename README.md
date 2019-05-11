@@ -84,4 +84,4 @@ Thanks for stopping by and stay classy Seattle.
 
 23. [Challenge: Pascal's Triangle](Challenges/Pascal'sTriangle)
 
-24. [Challenge: Product of Array Except Index](Challenges/ProductArray)
+24. [Challenge: Product of Array Except Current Index](Challenges/ProductArray)
