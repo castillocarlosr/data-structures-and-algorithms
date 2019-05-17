@@ -5,7 +5,9 @@ namespace ClosestPerfectSquare.Classes
     {
         public bool IsPerfectSquare(int input)
         {
-            if (Math.Abs((Math.Sqrt(input) - (Math.Sqrt(input)))) == 0 )
+            double squareDecimal = Math.Sqrt(input);
+            int squareWhole = (int)Math.Sqrt(input);
+            if((squareDecimal - (double)squareWhole) == 0)
             {
                 return true;
             }
