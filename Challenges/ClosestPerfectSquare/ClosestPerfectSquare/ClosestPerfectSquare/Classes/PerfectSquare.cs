@@ -44,6 +44,7 @@ namespace ClosestPerfectSquare.Classes
                     }
                 }
 
+                // Could of used the same n1 but decided to seperate the variables to be able to visually follow better.
                 n2 = input - 1;
                 while (true)
                 {
