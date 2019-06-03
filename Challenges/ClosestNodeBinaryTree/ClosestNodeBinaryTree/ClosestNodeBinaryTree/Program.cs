@@ -7,6 +7,8 @@ namespace ClosestNodeBinaryTree
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Binary Tree World!");
+
+            Console.ReadLine();
         }
     }
 }
