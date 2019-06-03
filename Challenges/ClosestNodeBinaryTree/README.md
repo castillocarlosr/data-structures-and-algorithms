@@ -14,9 +14,17 @@
 * Given a binary tree and a value "k" find if the binary tree has the node with the value of "k".
 * If the binray tree does NOT have the value of "k", find the node that does have the closest value to "k".
 
+- Example:
+Binary Tree:
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 6
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; /&nbsp; &nbsp;\
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;5&nbsp; &nbsp; 49
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; /&nbsp; &nbsp;\ &nbsp; /&nbsp; &nbsp;\
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;39 &nbsp; 5 &nbsp; 1 &nbsp; 22
 
 - Example:
-Binary Tree:        6
+Binary Tree:
+                    6
                   /   \
                  5     49
                 / \    / \
