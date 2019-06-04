@@ -17,15 +17,15 @@
 - Example:
 Binary Tree:
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 6
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 11
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; /&nbsp; &nbsp;&nbsp;\
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;50&nbsp; &nbsp;&nbsp; 49
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;6&nbsp; &nbsp;&nbsp; 15
 
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; /&nbsp; &nbsp;\ &nbsp;&nbsp; /&nbsp; &nbsp;\
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;39&nbsp; &nbsp; 5 &nbsp; 1 &nbsp; 22
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;5&nbsp; &nbsp; 10 &nbsp; 14 &nbsp; 42
 
 ******************************************************************************************************
 - Example:
