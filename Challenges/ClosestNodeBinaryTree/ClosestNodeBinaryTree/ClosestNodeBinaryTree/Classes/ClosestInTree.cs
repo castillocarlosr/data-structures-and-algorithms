@@ -32,16 +32,23 @@ namespace ClosestNodeBinaryTree.Classes
         */
         public int ClosestNumber(Node nodeInput, int numberInput)
         {
-            //int difference = Math.Abs(nodeInput.Value - numberInput);
-            int difference = 999999999;
+            if(nodeInput.Value == numberInput)
+            {
+                return nodeInput.Value;
+            }
+
+            int difference = Math.Abs(nodeInput.Value - numberInput);
             int output = nodeInput.Value;
+            if (Math.Abs(nodeInput.Value - numberInput) < difference)
+            {
+                output = nodeInput.Value;
+                difference = Math.Abs(nodeInput.Value - numberInput);
+            }
+
             if (nodeInput != null)
             {
-                if (Math.Abs(nodeInput.Value - numberInput) < difference)
-                {
-                    output = nodeInput.Value;
-                    difference = Math.Abs(nodeInput.Value - numberInput);
-                }
+                
+
                 if (nodeInput.LeftChild != null)
                 {
                     ClosestNumber(nodeInput.LeftChild, numberInput);
