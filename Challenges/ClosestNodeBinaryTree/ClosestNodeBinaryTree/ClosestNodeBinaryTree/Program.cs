@@ -9,28 +9,28 @@ namespace ClosestNodeBinaryTree
         {
             Console.WriteLine("Hello Binary Tree World!");
 
-            Node root = new Node(1);
+            Node root = new Node(10);
+            Node one = new Node(1);
             Node two = new Node(2);
             Node three = new Node(3);
             Node four = new Node(4);
-            Node ten = new Node(10);
-            Node eleven = new Node(11);
             Node fifteen = new Node(15);
             Node twentyTwo = new Node(20);
             Node thirtyThree = new Node(33);
+            Node forty = new Node(40);
 
-            root.LeftChild = two;
-            root.RightChild = three;
+            root.LeftChild = three;
+            root.RightChild = twentyTwo;
 
-            two.LeftChild = thirtyThree;
-            two.RightChild = twentyTwo;
+            three.LeftChild = two;
+            three.RightChild = four;
 
-            three.LeftChild = four;
-            three.RightChild = ten;
+            twentyTwo.LeftChild = fifteen;
+            twentyTwo.RightChild = thirtyThree;
 
-            thirtyThree.LeftChild = eleven;
+            two.LeftChild = one;
 
-            ten.RightChild = fifteen;
+            thirtyThree.RightChild = forty;
 
             ClosestInTree closest = new ClosestInTree();
 
