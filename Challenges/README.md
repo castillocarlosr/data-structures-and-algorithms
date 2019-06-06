@@ -62,3 +62,5 @@ Thanks for stopping by and stay classy Seattle.
 24. [Challenge: Product of Array Except Current Index](ProductArray)
 
 25. [Challenge: Find Closest Perfect Square](ClosestPerfectSquare)
+
+26. [Challenge: Find Closest Node in Binary Search Tree](ClosestNodeBinaryTree)
