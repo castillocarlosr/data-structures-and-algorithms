@@ -34,7 +34,7 @@ namespace ClosestNodeBinaryTree
 
             ClosestInTree closest = new ClosestInTree();
 
-            Console.WriteLine($"What's closest to 14: {closest.ClosestNumber(root, 14)}");
+            Console.WriteLine($"What node is closest to 25: {closest.ClosestNumber(root, 25)}");
 
             Console.ReadLine();
         }
