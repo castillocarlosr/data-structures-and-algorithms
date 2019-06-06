@@ -34,7 +34,7 @@ Binary Tree:
 
 ******************************************************************************************************
 
-[](../../assets/ClosestNode.png?raw=true)
+![](../../assets/ClosestNode.png?raw=true)
 ```
 Carlos Castillo
 ```
