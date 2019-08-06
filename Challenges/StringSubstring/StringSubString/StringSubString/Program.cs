@@ -12,18 +12,15 @@ namespace StringSubString
 
             string s1 = "brave";
             string s2 = "iwanttobebraveforcode";
-            string s3 = "thewordbravisnothere";
-            string s4 = "abbccc";
-            string s5 = "geeksforgeeks";
+            string s3 = "thewordbravisnothere";;
 
             MatchSubString isItInString = new MatchSubString();
-            Console.WriteLine($"Yes: {isItInString.MatchSubStringBool(s1, s2)}");
-            Console.WriteLine($"Yes: {isItInString.MatchSubStringBool(s1, s3)}");
-            Console.WriteLine("-----------");
-            Console.WriteLine($"com: {isItInString.compressRepeats(s4)}");
-
-            Console.WriteLine("-----------");
-            Console.WriteLine($"First NonRepeat: {isItInString.firstNonRepeatChar(s5)}");
+            Console.WriteLine($"String 1:  {s1}");
+            Console.WriteLine($"String 2:  {s2}");
+            Console.WriteLine($"String 3:  {s3}");
+            Console.WriteLine("\n");
+            Console.WriteLine($"String 1 in String 2: {isItInString.MatchSubStringBool(s1, s2)}");
+            Console.WriteLine($"String 1 in String 3: {isItInString.MatchSubStringBool(s1, s3)}");
 
             Console.ReadLine();
         }
