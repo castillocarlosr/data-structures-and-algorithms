@@ -1,4 +1,5 @@
 ﻿using System;
+using StringSubString.Classes;
 
 namespace StringSubString
 {
@@ -6,7 +7,18 @@ namespace StringSubString
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello String and Substrings");
+            Console.WriteLine("");
+
+            string s1 = "brave";
+            string s2 = "iwanttobebraveforcode";
+            string s3 = "thewordbravisnothere";
+
+            MatchSubString isItInString = new MatchSubString();
+            Console.WriteLine($"Yes: {isItInString.MatchSubStringBool(s1, s2)}");
+            Console.WriteLine($"Yes: {isItInString.MatchSubStringBool(s1, s3)}");
+
+            Console.ReadLine();
         }
     }
 }
