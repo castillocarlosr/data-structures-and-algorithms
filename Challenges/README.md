@@ -64,3 +64,5 @@ Thanks for stopping by and stay classy Seattle.
 25. [Challenge: Find Closest Perfect Square](ClosestPerfectSquare)
 
 26. [Challenge: Find Closest Node in Binary Search Tree](ClosestNodeBinaryTree)
+
+27. [Challenge: Is String a Substring of another String](StringSubstring)
