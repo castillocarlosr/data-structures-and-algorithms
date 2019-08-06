@@ -14,12 +14,16 @@ namespace StringSubString
             string s2 = "iwanttobebraveforcode";
             string s3 = "thewordbravisnothere";
             string s4 = "abbccc";
+            string s5 = "geeksforgeeks";
 
             MatchSubString isItInString = new MatchSubString();
             Console.WriteLine($"Yes: {isItInString.MatchSubStringBool(s1, s2)}");
             Console.WriteLine($"Yes: {isItInString.MatchSubStringBool(s1, s3)}");
             Console.WriteLine("-----------");
             Console.WriteLine($"com: {isItInString.compressRepeats(s4)}");
+
+            Console.WriteLine("-----------");
+            Console.WriteLine($"First NonRepeat: {isItInString.firstNonRepeatChar(s5)}");
 
             Console.ReadLine();
         }

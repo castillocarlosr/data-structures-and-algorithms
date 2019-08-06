@@ -29,28 +29,52 @@ namespace StringSubString.Classes
         public string compressRepeats(string s1)
         {
             //Could of used a List<string> as well.
-            //StringBuilder answer = new StringBuilder();
-            List<string> list = new List<string>();
-            int s1Len = s1.Length;
+            StringBuilder answer = new StringBuilder();
+            Char[] s1Char = s1.ToCharArray();
+            //List<string> list = new List<string>();
+            int s1Len = s1.Length -1;
             int i;
             for (i = 0; i < s1Len; i++)
             {
                 //starting count.  Just realized maybe I should be commenting.
                 int count = 1;
-                while (i < s1Len && (s1.Substring(i) == s1.Substring(i + 1)))
-                {
-                    count += 1; 
-                    //count++;
+                while (i < s1Len && (s1Char[i] == s1Char[i + 1]))
+                { 
+                    count++;
                     i++;
                 }
-                //answer.Append(count);
-                //answer.Append(s1.Substring(i));
-                list.Add(count.ToString());
-                list.Add(s1.Substring(i));
+                answer.Append(count);
+                answer.Append(s1Char[i]);
+                //list.Add(count.ToString());
+                //list.Add(s1.Substring(i));
             }
-            //return answer.ToString();
-            string answer = string.Join("", list);
-            return answer;
+            return answer.ToString();
+            //string answer = string.Join("", list);
+            //return answer;
+        }
+
+        public string firstNonRepeatChar(string s1)
+        {
+            int s1Len = s1.Length;
+            char[] count = new char[256];
+
+            int i;
+            for (i = 0; i < s1Len; i++)
+            {
+                count[s1[i]]++;
+            }
+
+            int index = -1, j;
+            for (j = 0; j < s1Len; j++)
+            {
+                if (count[s1[j]] == 1)
+                {
+                    index = j;
+                    break;
+                }
+            }
+            Char answer = s1[index];
+            return answer.ToString();
         }
 
     }
