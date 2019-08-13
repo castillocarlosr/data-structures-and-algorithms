@@ -38,7 +38,7 @@ Modified Binary Search Tree:
 
 ******************************************************************************************************
 
-![](../../assets/ModifyBST.PNG?raw=true)
+![](../../assets/ModifyBST2.PNG?raw=true)
 
 ```
 Carlos Castillo
