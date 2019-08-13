@@ -3,24 +3,35 @@ namespace ModifyBST.Classes
 {
     public class BSTmodifing
     {
-        public void addAllValuesGreater(Node node, int sum)
+        public class Sum
         {
-            if (node == null)
+            private readonly BSTmodifing outerInstance;
+
+            public Sum(BSTmodifing outerInstance)
             {
-                return;
+                this.outerInstance = outerInstance;
             }
-            addAllValuesGreater(node.RightChild, sum);
 
-            sum += node.Value;
-            node.Value = sum;
-
-            addAllValuesGreater(node.LeftChild, sum);
+            public int sum = 0;
         }
 
-        public void runModifyBST(Node root)
+        public virtual void addAllValuesGreater(Node node, Sum sumAdd)
         {
-            int sum = 0;
-            addAllValuesGreater(root, sum);
+            if (node == null) return;
+
+            this.addAllValuesGreater(node.RightChild, sumAdd);
+
+            sumAdd.sum = sumAdd.sum + node.Value;
+            //sumAdd += node.Value;
+            node.Value = sumAdd.sum;
+
+            this.addAllValuesGreater(node.LeftChild, sumAdd);
+        }
+
+        public virtual void modifySum(Node node)
+        {
+            Sum sumAdd = new Sum(this);
+            this.addAllValuesGreater(node, sumAdd);
         }
     }
 }
