@@ -28,12 +28,12 @@ namespace ModifyBST
             Console.WriteLine("After modify on binary search tree");
 
             BSTmodifing bSTmodifing = new BSTmodifing();
-            bSTmodifing.runModifyBST(tree);
+            bSTmodifing.modifySum(tree);
             Console.WriteLine($"          {tree.Value}");
             Console.WriteLine($"         /  \\");
             Console.WriteLine($"        {tree.LeftChild.Value}     {tree.RightChild.Value}");
             Console.WriteLine($"       / \\   / \\");
-            Console.WriteLine($"      {tree.LeftChild.LeftChild.Value}   {tree.LeftChild.RightChild.Value}  {tree.RightChild.LeftChild.Value}   {tree.RightChild.RightChild.Value}");
+            Console.WriteLine($"      {tree.LeftChild.LeftChild.Value}  {tree.LeftChild.RightChild.Value} {tree.RightChild.LeftChild.Value}  {tree.RightChild.RightChild.Value}");
 
             Console.ReadLine();
         }
