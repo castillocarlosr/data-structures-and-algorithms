@@ -68,3 +68,5 @@ Thanks for stopping by and stay classy Seattle.
 27. [Challenge: Is String a Substring of another String](StringSubstring)
 
 28. [Challenge: Modify Binary Search Tree](ModifyBST)
+
+29. [Challenge: Find if K equals 2 numbers in an Array](Add2ToK)
