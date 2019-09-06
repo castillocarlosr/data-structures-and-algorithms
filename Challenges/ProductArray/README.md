@@ -13,7 +13,7 @@
 - Process flow: [ (2 * 3 * 4), (1 * 3 * 4), (1 * 2 * 4), (1 * 2 * 3) ];
 - Output: [24, 12, 8, 6]
 
-![](../../assets/PascelTriangle.png?raw=true)
+![](../../assets/ProductArray.png?raw=true)
 ```
 Carlos Castillo
 ```
