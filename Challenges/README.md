@@ -70,3 +70,5 @@ Thanks for stopping by and stay classy Seattle.
 28. [Challenge: Modify Binary Search Tree](ModifyBST)
 
 29. [Challenge: Find if K equals 2 numbers in an Array](Add2ToK)
+
+30. [Challenge: Reverse a Linked List](ReverseLinkedList)
