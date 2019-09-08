@@ -14,6 +14,27 @@ namespace ReverseLinkedList.Classes
         public Node Current { get; set; }
 
         /// <summary>
+        /// Adds node to the end.
+        /// </summary>
+        /// <param name="inputNode"></param>
+        public void AddNodeToEnd(Node inputNode)
+        {
+            if(Head == null)
+            {
+                Head = inputNode;
+            }
+            else
+            {
+                Node temp = Head;
+                while (temp.Next != null)
+                {
+                    temp = temp.Next;
+                }
+                temp.Next = inputNode;
+            }
+        }
+
+        /// <summary>
         /// This will print the node results out to the display when called up.
         /// </summary>
         /// <return>void</return>
