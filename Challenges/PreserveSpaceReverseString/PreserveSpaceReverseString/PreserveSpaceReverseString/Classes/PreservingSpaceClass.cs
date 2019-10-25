@@ -5,7 +5,7 @@ namespace PreserveSpaceReverseString.Classes
     {
         public string ReverseInputStr(string input)
         {
-            char[] inputArr = new char[input.Length];
+            char[] inputArr = input.ToCharArray();
             char[] result = new char[inputArr.Length];
             for (int i = 0; i < inputArr.Length; i++)
             {
@@ -14,17 +14,21 @@ namespace PreserveSpaceReverseString.Classes
                     result[i] = '$';
                 }
             }
-            int j = inputArr.Length - 1;
-            for (int i = 0; i < input.Length; i++)
+            int j = result.Length - 1;
+            for (int i = 0; i < inputArr.Length; i++)
             {
                 if(inputArr[i] != '$')
                 {
+                    if(result[j] == '$')
+                    {
+                        j--;
+                    }
                     result[j] = inputArr[i];
                     j--;
                 }
-                j--;
             }
-            return result.ToString();
+            string sendResults = new string(result);
+            return sendResults;
         }
     }
 }
