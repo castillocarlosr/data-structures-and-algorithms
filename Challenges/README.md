@@ -72,3 +72,5 @@ Thanks for stopping by and stay classy Seattle.
 29. [Challenge: Find if K equals 2 numbers in an Array](Add2ToK)
 
 30. [Challenge: Reverse a Linked List](ReverseLinkedList)
+
+31. [Challenge: Preserve Special Space while reversing string](PreserveSpaceReverseString)

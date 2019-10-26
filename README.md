@@ -97,3 +97,5 @@ Thanks for stopping by and stay classy Seattle.
 29. [Challenge: Find if K equals 2 numbers in an Array](Challenges/Add2ToK)
 
 30. [Challenge: Reverse a singly Linked List](Challenges/ReverseLinkedList)
+
+31. [Challenge: Preserve Special Space while reversing string](Challenges/PreserveSpaceReverseString)
