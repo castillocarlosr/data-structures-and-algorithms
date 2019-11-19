@@ -1,6 +1,6 @@
 # data-structures-and-algorithms
 ## Implementation Insertion Sort
-Code401 
+
 
 ## Collaborators
 - Carlos Roberto Castillo
@@ -42,4 +42,5 @@ The approach I took was creating a method outside of static Main().
 ![](../../assets/InsertionSort.PNG?raw=true)
 
 Lab started on February 17, 2019 by Carlos R. Castillo
+Updated on November 19, 2019.
 Thanks for stopping by and stay classy Seattle..
