@@ -1,4 +1,5 @@
 ﻿using System;
+using InsertionSort.Classes;
 
 namespace InsertionSort
 {
@@ -7,34 +8,39 @@ namespace InsertionSort
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Insertion Sort!");
-            int[] testArray = new int[9] { 5, 23, 12, 4, 1, 2, 15, 78, 222};
-            Console.WriteLine("Initial Array: ");
-            Console.WriteLine(String.Join(" ", testArray));
-
-            InsertionSort(testArray);
-            Console.ReadLine();
-        }
-        
-        /// <summary>
-        /// Method for insertion sort from least to greatest
-        /// </summary>
-        /// <param name="array"></param>
-        /// <returns>int array</returns>
-        public static int[] InsertionSort(int[] array)
-        {
-            for (int i = 1; i < array.Length; i++)
+            Console.WriteLine("");
+            int[] arrayOne = new int[9] { 5, 23, 12, 4, 1, 2, 15, 78, 222};
+            int[] arrayTwo = new int[7] { 66, 22, 55,33, 44, 77, 11};
+            int[] arrayThree = new int[7] { 22, 66, 55, 33, 44, 77, 11 };
+            Console.Write("Initial Array: ");
+            for (int i = 0; i < arrayOne.Length-1; i++)
             {
-                int j = i - 1;
-                int temp = array[i];
-
-                while (j >= 0 && temp < array[j])
-                {
-                    array[j + 1] = array[j];
-                    j--;
-                }
-                array[j + 1] = temp;
+                Console.Write(arrayOne[i] + " ");
             }
-            return array;
+            SortTypes sortArray = new SortTypes();
+            sortArray.IterativeSort(arrayOne);
+            Console.WriteLine("Sorted: ");
+            Console.WriteLine(String.Join(" ", arrayOne));
+
+            Console.Write("Initial Array: ");
+            for (int i = 0; i < arrayTwo.Length - 1; i++)
+            {
+                Console.Write(arrayTwo[i] + " ");
+            }
+            sortArray.RecursiveSort(arrayTwo);
+            Console.WriteLine("Sorted: ");
+            Console.WriteLine(String.Join(" ", arrayTwo));
+
+            Console.Write("Initial Array: ");
+            for (int i = 0; i < arrayThree.Length - 1; i++)
+            {
+                Console.Write(arrayThree[i] + " ");
+            }
+            sortArray.RecursiveSort(arrayThree);
+            Console.WriteLine("Sorted: ");
+            Console.WriteLine(String.Join(" ", arrayThree));
+
+            Console.ReadLine();
         }
     }
 }
