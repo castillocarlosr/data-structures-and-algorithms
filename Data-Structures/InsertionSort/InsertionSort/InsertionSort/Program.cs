@@ -33,8 +33,6 @@ namespace InsertionSort
                     j--;
                 }
                 array[j + 1] = temp;
-                //Console.Write("After pass " + i + " : ");
-                //Console.WriteLine(String.Join(" ", array));
             }
             return array;
         }
