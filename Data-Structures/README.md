@@ -12,7 +12,7 @@ Contained here is an accumulation of different Data Structure and Algorithm impl
 
 4. [Hash Table](HashTable)
 
-5. [Insertion Sort](Sorts)
+5. [Insertion Sort](InsertionSort)
 
 6. [Graphs](Graphs)
 
