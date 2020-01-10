@@ -99,3 +99,5 @@ Thanks for stopping by and stay classy Seattle.
 30. [Challenge: Reverse a singly Linked List](Challenges/ReverseLinkedList)
 
 31. [Challenge: Preserve Special Space while reversing string](Challenges/PreserveSpaceReverseString)
+
+32. [Challenge: Calculate FACTORIAL for ALL whole numbers](Challenges/Factorial)

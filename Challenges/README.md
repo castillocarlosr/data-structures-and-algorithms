@@ -74,3 +74,5 @@ Thanks for stopping by and stay classy Seattle.
 30. [Challenge: Reverse a Linked List](ReverseLinkedList)
 
 31. [Challenge: Preserve Special Space while reversing string](PreserveSpaceReverseString)
+
+32. [Challenge: Calculate FACTORIAL for ALL whole numbers](Factorial)
