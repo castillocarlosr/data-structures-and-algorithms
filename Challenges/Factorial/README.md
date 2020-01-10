@@ -13,15 +13,15 @@
 - Input: 6
 - Process:  6 * 5 * 4 * 3 * 2 * 1 = 720
 - Output: 720
-
+<br />
 - Input: 0
 - Process:  1 = 0!
 - Output: 1
-
+<br />
 - Input: -5
 - Process:  stack overflow.....just kidding.  try-catch block with exception for negative numbers.
 - Output: Must enter a positive number:  
-
+<br />
 
 ![](../../assets/Factorial1.PNG?raw=true)
 ![](../../assets/Factorial2.PNG?raw=true)
