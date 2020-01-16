@@ -26,6 +26,8 @@ Thanks for stopping by and stay classy Seattle.
 
 7. [Bubble Sort](Data-Structures/BubbleSort)
 
+8. [Merge Sort](Data-Structures/MergeSort)
+
 <!--
 
 1.[Selection Sort]()
