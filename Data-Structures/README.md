@@ -18,13 +18,13 @@ Contained here is an accumulation of different Data Structure and Algorithm impl
 
 7. [Bubble Sort](BubbleSort)
 
+8. [Merge Sort](MergeSort)
+
 <!--
 
 1.[Selection Sort]()
 
 1.[Quick Sort]()
-
-1.[Merge Sort]()
 
 1.[Radix Sort]()
 -->
