@@ -102,6 +102,6 @@ Thanks for stopping by and stay classy Seattle.
 
 31. [Challenge: Preserve Special Space while reversing string](Challenges/PreserveSpaceReverseString)
 
-32. [Challenge: Calculate FACTORIAL for ALL whole numbers](Challenges/Factorial)
+32. [Challenge: Calculate factorial for all positive whole numbers](Challenges/Factorial)
 
 *******************************************************************************************************bottom of page.
