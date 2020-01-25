@@ -40,6 +40,8 @@ namespace MostCommonElement.Classes
 
         }
 
+
+        /**** Below is the same object as above but returns the value in the key/value pair instead of the key ****/
         public int HighestFrequencyCount(int[] arr)
         {
             Dictionary<int, int> hashMap = new Dictionary<int, int>(); //could of called it hs for hashMap.  Keep in mind Java uses HashMap but not C#.
