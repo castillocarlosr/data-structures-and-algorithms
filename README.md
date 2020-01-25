@@ -104,6 +104,6 @@ Thanks for stopping by and stay classy Seattle.
 
 32. [Challenge: Calculate factorial for all positive whole numbers](Challenges/Factorial)
 
-33. [COMING SOON! --->Challenge: Find the most common INT (or element) in an array]()
+33. [Challenge: Find the most common INT (or element) in an array](Challenges/MostCommonInArray)
 
 *******************************************************************************************************bottom of page.
