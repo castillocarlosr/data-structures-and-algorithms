@@ -20,6 +20,8 @@ Contained here is an accumulation of different Data Structure and Algorithm impl
 
 8. [Merge Sort](MergeSort)
 
+9. [Coming SOON! ----> Quick Sort](QuickSort)
+
 <!--
 
 1.[Selection Sort]()

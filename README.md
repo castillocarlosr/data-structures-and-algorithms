@@ -28,6 +28,8 @@ Thanks for stopping by and stay classy Seattle.
 
 8. [Merge Sort](Data-Structures/MergeSort)
 
+9. [Coming SOON!  ----> Quick Sort](Data-Structures/QuickSort)
+
 <!--
 
 1.[Selection Sort]()
@@ -106,4 +108,5 @@ Thanks for stopping by and stay classy Seattle.
 
 33. [Challenge: Find the most common INT (or element) in an array](Challenges/MostCommonInArray)
 
+-  Last Update: January 26, 2020
 *******************************************************************************************************bottom of page.
