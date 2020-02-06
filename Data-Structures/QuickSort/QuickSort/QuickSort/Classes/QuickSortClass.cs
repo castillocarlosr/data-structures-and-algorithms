@@ -18,7 +18,7 @@ namespace QuickSort.Classes
 
         static void QuickSortObject(int[] arr, int low, int high)
         {
-            //similar ro merge sort
+            //similar to merge sort
             //divide and conque
             //will rerequire one or 3 pivots....I'll have to draw it out
             if(low < high)
@@ -26,8 +26,16 @@ namespace QuickSort.Classes
                 //int something = callAnotherObject(arr, lowPivot, highPivot);
                 // sort arr, low, pivot-1
                 //sort arr, pivot+1, high
+                int pivot = PartitionSort(arr, low, high);
+
             }
 
+        }
+
+        private static int PartitionSort(int[] arr,int low,int high)
+        {
+            int pivot = arr[low];
+            //int right = arr[high];
         }
     }
 }
