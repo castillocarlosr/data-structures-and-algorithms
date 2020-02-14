@@ -1,4 +1,5 @@
 ﻿using System;
+using QuickSort.Classes;
 
 namespace QuickSort
 {
@@ -7,6 +8,8 @@ namespace QuickSort
         static void Main(string[] args)
         {
             Console.WriteLine("Hello QUICK SORT World!");
+
+
             Console.ReadLine();
         }
     }
