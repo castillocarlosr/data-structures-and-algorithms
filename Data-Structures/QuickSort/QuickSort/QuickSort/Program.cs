@@ -9,7 +9,7 @@ namespace QuickSort
         {
             Console.WriteLine("Hello QUICK SORT World!");
 
-
+            Console.WriteLine($"I will finish before my flight");
             Console.ReadLine();
         }
     }
