@@ -8,15 +8,15 @@ namespace QuickSort.Classes
         /// Getting the length and then calling the object for the low and high pivots.
         /// </summary>
         /// <param name="arr"></param>
-        public void QuickSortMain(int[] arr)
+        public void QuickSortObject(int[] arr)
         {
             int high = arr.Length;
             int low = 0;
 
-            QuickSortObject(arr, low, high);
+            QuickSortDivide(arr, low, high);
         }
 
-        static void QuickSortObject(int[] arr, int low, int high)
+        static void QuickSortDivide(int[] arr, int low, int high)
         {
             //similar to merge sort
             //divide and conque
@@ -36,6 +36,8 @@ namespace QuickSort.Classes
         {
             int pivot = arr[low];
             //int right = arr[high];
+            int result = -1;
+            return result;
         }
     }
 }
