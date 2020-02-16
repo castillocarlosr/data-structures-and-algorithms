@@ -27,6 +27,14 @@ namespace QuickSort.Classes
                 // sort arr, low, pivot-1
                 //sort arr, pivot+1, high
                 int pivot = PartitionSort(arr, low, high);
+                if(pivot < 1)
+                {
+                    QuickSortDivide(arr, low, pivot - 1);
+                }
+                else
+                {
+                    QuickSortDivide(arr, pivot + 1, high);
+                }
 
             }
 
