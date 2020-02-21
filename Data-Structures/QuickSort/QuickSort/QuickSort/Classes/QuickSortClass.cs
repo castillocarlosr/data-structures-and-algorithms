@@ -20,21 +20,24 @@ namespace QuickSort.Classes
         {
             //similar to merge sort
             //divide and conque
-            //will rerequire one or 3 pivots....I'll have to draw it out
+            //true for first pass as low=0 and high is 1 or greater.
             if(low < high)
             {
-                //int something = callAnotherObject(arr, lowPivot, highPivot);
-                // sort arr, low, pivot-1
-                //sort arr, pivot+1, high
                 int pivot = PartitionSort(arr, low, high);
-                if(pivot < 1)
+                //sort array, low, pivot-1
+                //sort array, pivot+1, high
+                if(pivot > 1)
                 {
                     QuickSortDivider(arr, low, pivot - 1);
                 }
-                else
+                if(pivot + 1 < high)
                 {
                     QuickSortDivider(arr, pivot + 1, high);
                 }
+                //else
+                //{
+                  //  QuickSortDivider(arr, pivot + 1, high);
+                //}
 
             }
 
@@ -42,10 +45,30 @@ namespace QuickSort.Classes
 
         private static int PartitionSort(int[] arr,int low,int high)
         {
+            //Can start on low or high.  I choose low for simplicity.
             int pivot = arr[low];
-            //int right = arr[high];
-            int result = -1;
-            return result;
+            while (true)
+            {
+                while (arr[low] < pivot)
+                {
+                    low++;
+                }
+                while(arr[high] > pivot)
+                {
+                    high--;
+                }
+                if(low < high)
+                {
+                    if(arr[low] == arr[high])
+                    {
+                        return high;
+                    }
+                    int temp = arr[low];
+                    arr[low] = arr[high];
+                    arr[high] = temp;
+                }
+                return high;
+            }
         }
     }
 }
