@@ -13,10 +13,10 @@ namespace QuickSort.Classes
             int high = arr.Length;
             int low = 0;
 
-            QuickSortDivide(arr, low, high);
+            QuickSortDivider(arr, low, high);
         }
 
-        static void QuickSortDivide(int[] arr, int low, int high)
+        static void QuickSortDivider(int[] arr, int low, int high)
         {
             //similar to merge sort
             //divide and conque
@@ -29,11 +29,11 @@ namespace QuickSort.Classes
                 int pivot = PartitionSort(arr, low, high);
                 if(pivot < 1)
                 {
-                    QuickSortDivide(arr, low, pivot - 1);
+                    QuickSortDivider(arr, low, pivot - 1);
                 }
                 else
                 {
-                    QuickSortDivide(arr, pivot + 1, high);
+                    QuickSortDivider(arr, pivot + 1, high);
                 }
 
             }
