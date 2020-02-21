@@ -10,7 +10,7 @@ namespace QuickSort.Classes
         /// <param name="arr"></param>
         public void QuickSortObject(int[] arr)
         {
-            int high = arr.Length;
+            int high = arr.Length - 1;
             int low = 0;
 
             QuickSortDivider(arr, low, high);
