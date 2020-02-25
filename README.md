@@ -28,7 +28,7 @@ Thanks for stopping by and stay classy Seattle.
 
 8. [Merge Sort](Data-Structures/MergeSort)
 
-9. [Coming SOON!  ----> Quick Sort](Data-Structures/QuickSort)
+9. [Quick Sort](Data-Structures/QuickSort)
 
 <!--
 
