@@ -12,7 +12,7 @@
 - Also be able to print out(return) only that row in an array.
 
 ProductArray.png
-![](../../assets/ProductArray.png?raw=true)
+![](../../assets/PascelTriangle.png?raw=true)
 
 ```
 Carlos Castillo
