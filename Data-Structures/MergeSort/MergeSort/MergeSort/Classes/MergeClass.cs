@@ -6,6 +6,11 @@ namespace MergeSort.Classes
 {
     public class MergeClass
     {
+        /// <summary>
+        /// Divide and Conquer.  Break down into two's arrays until smallest units.
+        /// </summary>
+        /// <param name="arr">int array</param>
+        /// <returns>call upon recursive MergeUtility</returns>
         public int[] MergeSortInput(int[] arr)
         {
             if(arr.Length <= 1)
@@ -43,6 +48,12 @@ namespace MergeSort.Classes
             return resultArr;
         }
 
+        /// <summary>
+        /// Will put together left and right array.  
+        /// </summary>
+        /// <param name="leftArr"></param>
+        /// <param name="rightArr"></param>
+        /// <returns>Called from MergeSortInput</returns>
         public int[] MergeUtility(int[] leftArr, int[] rightArr)
         {
             int leftIndex = 0;
