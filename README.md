@@ -34,10 +34,6 @@ Thanks for stopping by and stay classy Seattle.
 
 1.[Selection Sort]()
 
-1.[Quick Sort]()
-
-1.[Merge Sort]()
-
 1.[Radix Sort]()
 -->
 
