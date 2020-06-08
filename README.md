@@ -104,5 +104,6 @@ Thanks for stopping by and stay classy Seattle.
 
 33. [Challenge: Find the most common INT (or element) in an array](Challenges/MostCommonInArray)
 
--  Last Update: February 14, 2020
+-  Last Major Update: February 14, 2020
+-  Minor update: June 08, 2020
 *******************************************************************************************************bottom of page.
