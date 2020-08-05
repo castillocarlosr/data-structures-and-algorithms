@@ -104,6 +104,7 @@ Thanks for stopping by and stay classy Seattle.
 
 33. [Challenge: Find the most common INT (or element) in an array](Challenges/MostCommonInArray)
 
--  Last Major Update: February 14, 2020
--  Minor update: June 08, 2020
+34. [Challenge: Rotate Array Left X amount of spaces](Challenges/RotateArrayLeft)
+
+-  Last Update: Aug 05, 2020
 *******************************************************************************************************bottom of page.
