@@ -14,13 +14,13 @@
 #### Example
 - Input = 13
 - Output = 1
-<p></p>
+&nbsp
 - Input = 14
 - Output = 2
-<p></p>
+&nbsp
 - Input = 15
 - Output = 3
-<p></p>
+
 
 
 
