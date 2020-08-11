@@ -12,6 +12,7 @@
 - If it is NOT prime, return the lowest number in its divisiable that can be prime.
 
 #### Example
+<p>
 - Input = 13
 - Output = 1
 &nbsp
@@ -20,7 +21,7 @@
 &nbsp
 - Input = 15
 - Output = 3
-
+</p>
 
 
 
