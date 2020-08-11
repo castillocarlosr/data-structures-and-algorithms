@@ -106,5 +106,7 @@ Thanks for stopping by and stay classy Seattle.
 
 34. [Challenge: Rotate Array Left X amount of spaces](Challenges/RotateArrayLeft)
 
--  Last Update: Aug 05, 2020
+35. [Challenge: Find that Prime](Challenges/PrimeNumbers)
+
+-  Last Update: Aug 11, 2020
 *******************************************************************************************************bottom of page.
