@@ -14,13 +14,13 @@
 #### Example
 - Input = 13
 - Output = 1
-<p>&nsbp</p>
+<p>&nbsp</p>
 - Input = 14
 - Output = 2
-<p>&nsbp</p>
+<p>&nbsp</p>
 - Input = 15
 - Output = 3
-<p>&nsbp</p>
+<p>&nbsp</p>
 
 
 
