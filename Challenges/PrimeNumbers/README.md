@@ -15,10 +15,13 @@
 
 - Input = 13
 - Output = 1
-&nbsp
+ 
+ 
 - Input = 14
 - Output = 2
-&nbsp
+
+
+
 - Input = 15
 - Output = 3
 
