@@ -82,3 +82,5 @@ Thanks for stopping by and stay classy Seattle.
 34. [Challenge: Rotate Array Left X amount of spaces](RotateArrayLeft)
 
 35. [Challenge: Find that Prime](PrimeNumbers)
+
+36. [Challenge: Find the number of times 'a' appears when string in repeated by integer](RepeatedStringLong)

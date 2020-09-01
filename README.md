@@ -108,5 +108,7 @@ Thanks for stopping by and stay classy Seattle.
 
 35. [Challenge: Find that Prime](Challenges/PrimeNumbers)
 
--  Last Update: Aug 11, 2020
+36. [Challenge: Find the number of times 'a' appears when string in repeated by integer](Challenges/RepeatedStringLong)
+
+-  Last Update: September 01, 2020
 *******************************************************************************************************bottom of page.
