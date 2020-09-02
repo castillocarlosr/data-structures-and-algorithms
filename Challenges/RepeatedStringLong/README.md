@@ -11,7 +11,7 @@
 Input s = "aba"
 Input n = 10
 ```
-New repeated string is now = <u>aba</u><u>aba</u><u>aba</u><u>a</u>
+<p>New repeated string is now = <u>aba</u><u>aba</u><u>aba</u><u>a</u></p>
 ```
 Output = 7
 ```
