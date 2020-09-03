@@ -12,11 +12,14 @@ Input s = "aba"
 Input n = 10
 ```
 <p>New repeated string is now = <u>aba</u><u>aba</u><u>aba</u><u>a</u></p>
+
 ```
 Output = 7
+There are 7 of the letter 'a' in the new repeated string.
+The repeated string has a lenth of 10.
 ```
-There are 7 of the letter 'a' in the new repeated string.  The repeated string has a lenth of 10.
 
+If there are no 'a' in the string, return is 0.
 
 ```
 Carlos Castillo
