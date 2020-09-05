@@ -5,14 +5,32 @@ namespace BribeQueueLine.Classes
     {
         public void minimumBribes(int[] q)
         {
-            Console.WriteLine("Cool beans");
+            bool chaos = false;
             int bribes = 0;
             for (int i = 0; i < q.Length; i++)
             {
                 if(q[i] - (i + 1) > 2)
                 {
-                    Console.WriteLine("Too chaotic");
+                    chaos = true;
                 }
+                else
+                {
+                    for (int j = 0; j < i; j++)
+                    {
+                        if (q[j] > q[i])
+                        {
+                            bribes++;
+                        }
+                    }
+                }
+            }
+            if(chaos == true)
+            {
+                Console.WriteLine("Too chaotic");
+            }
+            else
+            {
+                Console.WriteLine($"{bribes}");
             }
         }
     }
