@@ -110,5 +110,7 @@ Thanks for stopping by and stay classy Seattle.
 
 36. [Challenge: Find the number of times 'a' appears when string in repeated by integer](Challenges/RepeatedStringLong)
 
+37. [Challenge: Find the min numbers of times the line was bribed](Challenges/BribeQueue)
+
 -  Last Update: September 01, 2020
 *******************************************************************************************************bottom of page.
