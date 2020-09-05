@@ -84,3 +84,5 @@ Thanks for stopping by and stay classy Seattle.
 35. [Challenge: Find that Prime](PrimeNumbers)
 
 36. [Challenge: Find the number of times 'a' appears when string in repeated by integer](RepeatedStringLong)
+
+37. [Challenge: Find the min numbers of times the line was bribed](BribeQueue)
