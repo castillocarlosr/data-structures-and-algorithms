@@ -112,5 +112,5 @@ Thanks for stopping by and stay classy Seattle.
 
 37. [Challenge: Find the min numbers of times the line was bribed](Challenges/BribeQueue)
 
--  Last Update: September 01, 2020
+-  Last Update: September 07, 2020
 *******************************************************************************************************bottom of page.
