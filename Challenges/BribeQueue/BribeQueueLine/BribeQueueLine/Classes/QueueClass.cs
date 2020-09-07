@@ -15,7 +15,7 @@ namespace BribeQueueLine.Classes
                 }
                 else
                 {
-                    for (int j = 0; j < i; j++)
+                    for (int j = Math.Max(0, q[i] - 2); j < i; j++)
                     {
                         if (q[j] > q[i])
                         {
