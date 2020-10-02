@@ -13,6 +13,7 @@ Thanks for stopping by and stay classy Seattle.
 ## Table of Contents
 ## *********** Data-Structures **************************
 <ol type="I">
+  
 1. [Linked List](Data-Structures/LinkedList)
 
 2. [Stacks & Queues](Data-Structures/StacksAndQueue)
