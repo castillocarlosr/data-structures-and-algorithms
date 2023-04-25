@@ -4,7 +4,7 @@ C# ASP.NET Core
 
 * This is a continuing repo for all white-board code challenges.
 
-* Challenges using C# in Visual Studio 2017 & 2019 by Carlos R. Castillo
+* Challenges using C# in Visual Studio 2017, 2019, 2022 by Carlos R. Castillo
 
 ```
 Thanks for stopping by and stay classy Seattle.
@@ -115,5 +115,7 @@ Thanks for stopping by and stay classy Seattle.
 
 37. [Challenge: Find the min numbers of times the line was bribed](Challenges/BribeQueue)
 
--  Last Update: September 07, 2020
+38. [Challenge: Do the classic FizzBuzz problem in a multithreaded way.](Challenges/Threads_FizzBuzz)
+
+-  Last Update: April 25, 2023
 *******************************************************************************************************bottom of page.
