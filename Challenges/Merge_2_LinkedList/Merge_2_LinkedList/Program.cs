@@ -16,7 +16,6 @@ public class Program
 {
     public static void Main()
     {
-        Console.WriteLine("HI BARBIE");
         Custome_Node list1 = new Custome_Node(1);
         list1.Next = new Custome_Node(2);
         list1.Next.Next = new Custome_Node(5);
@@ -30,10 +29,8 @@ public class Program
         list2.Next.Next.Next = new Custome_Node(7);
         list2.Next.Next.Next.Next = new Custome_Node(10);
         list2.Next.Next.Next.Next.Next = new Custome_Node(13);
-        Console.WriteLine("HI ALlen");
         Custome_Node mergedList = MergeAndRemoveDuplicates(list1, list2);
         PrintLinkedList(mergedList);
-        Console.WriteLine("HI KEN");
     }
 
     public static Custome_Node MergeAndRemoveDuplicates(Custome_Node list1, Custome_Node list2)
@@ -55,6 +52,8 @@ public class Program
             }
             else
             {
+                current.Next = list2;  //I don't think it matters which list I pick if they are the same.
+                list1 = list1.Next;
                 list2 = list2.Next;
             }
 
