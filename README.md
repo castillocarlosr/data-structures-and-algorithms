@@ -117,5 +117,7 @@ Thanks for stopping by and stay classy Seattle.
 
 38. [Challenge: Do the classic FizzBuzz problem in a multithreaded way.](Challenges/Threads_FizzBuzz)
 
--  Last Update: April 25, 2023
+39. [Challenge: Merge 2 Linked-List that are ordered into new ordered list eliminating duplicate and avoiding built in functions like Node.](Challenges/Merge_2_LinkedList)
+
+-  Last Update: August 5, 2023
 *******************************************************************************************************bottom of page.
