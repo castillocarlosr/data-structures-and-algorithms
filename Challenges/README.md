@@ -86,3 +86,7 @@ Thanks for stopping by and stay classy Seattle.
 36. [Challenge: Find the number of times 'a' appears when string in repeated by integer](RepeatedStringLong)
 
 37. [Challenge: Find the min numbers of times the line was bribed](BribeQueue)
+
+38. [Challenge: Do the classic FizzBuzz problem in a multithreaded way.](Threads_FizzBuzz)
+
+39. [Challenge: Merge 2 Linked-List that are ordered into new ordered list eliminating duplicate and avoiding built in functions like Node.](Merge_2_LinkedList)
