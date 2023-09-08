@@ -1,6 +1,6 @@
 # Data Structure Implementations
 
-Contained here is an accumulation of different Data Structure and Algorithm implementations. 
+Contained here is an accumulation of different Data Structures and Algorithm implementations. 
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ Contained here is an accumulation of different Data Structure and Algorithm impl
 
 8. [Merge Sort](MergeSort)
 
-9. [Coming SOON! ----> Quick Sort](QuickSort)
+9. [Quick Sort](QuickSort)
 
 <!--
 
