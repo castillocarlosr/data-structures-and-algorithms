@@ -3,11 +3,10 @@
 public class Custome_Node
 {
     public int Data { get; set; }
-    public Custome_Node Next { get; set; }
-
+    public Custome_Node? Next { get; set; }
     public Custome_Node(int data)
     {
-        Data = data;
+        this.Data = data;
         Next = null;
     }
 }
